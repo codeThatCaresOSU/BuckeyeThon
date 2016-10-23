@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9CD87ACB1DBD81B6006FB753 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CD87ACA1DBD81B6006FB753 /* main.m */; };
+		9CD87ACE1DBD81B6006FB753 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CD87ACD1DBD81B6006FB753 /* AppDelegate.m */; };
+		9CD87AD11DBD81B6006FB753 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CD87AD01DBD81B6006FB753 /* ViewController.m */; };
+		9CD87AD41DBD81B6006FB753 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CD87AD21DBD81B6006FB753 /* Main.storyboard */; };
+		9CD87AD61DBD81B6006FB753 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CD87AD51DBD81B6006FB753 /* Assets.xcassets */; };
+		9CD87AD91DBD81B6006FB753 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CD87AD71DBD81B6006FB753 /* LaunchScreen.storyboard */; };
+		9CD87AE41DBD81B6006FB753 /* BuckeyeThonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CD87AE31DBD81B6006FB753 /* BuckeyeThonTests.m */; };
+		9CD87AEF1DBD81B6006FB753 /* BuckeyeThonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CD87AEE1DBD81B6006FB753 /* BuckeyeThonUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9CD87AE01DBD81B6006FB753 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9CD87ABE1DBD81B6006FB753 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9CD87AC51DBD81B6006FB753;
+			remoteInfo = BuckeyeThon;
+		};
+		9CD87AEB1DBD81B6006FB753 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9CD87ABE1DBD81B6006FB753 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9CD87AC51DBD81B6006FB753;
+			remoteInfo = BuckeyeThon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9CD87AC61DBD81B6006FB753 /* BuckeyeThon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuckeyeThon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CD87ACA1DBD81B6006FB753 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9CD87ACC1DBD81B6006FB753 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9CD87ACD1DBD81B6006FB753 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9CD87ACF1DBD81B6006FB753 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9CD87AD01DBD81B6006FB753 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9CD87AD31DBD81B6006FB753 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9CD87AD51DBD81B6006FB753 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9CD87AD81DBD81B6006FB753 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9CD87ADA1DBD81B6006FB753 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CD87ADF1DBD81B6006FB753 /* BuckeyeThonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuckeyeThonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CD87AE31DBD81B6006FB753 /* BuckeyeThonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BuckeyeThonTests.m; sourceTree = "<group>"; };
+		9CD87AE51DBD81B6006FB753 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CD87AEA1DBD81B6006FB753 /* BuckeyeThonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuckeyeThonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CD87AEE1DBD81B6006FB753 /* BuckeyeThonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BuckeyeThonUITests.m; sourceTree = "<group>"; };
+		9CD87AF01DBD81B6006FB753 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9CD87AC31DBD81B6006FB753 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CD87ADC1DBD81B6006FB753 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CD87AE71DBD81B6006FB753 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9CD87ABD1DBD81B6006FB753 = {
+			isa = PBXGroup;
+			children = (
+				9CD87AC81DBD81B6006FB753 /* BuckeyeThon */,
+				9CD87AE21DBD81B6006FB753 /* BuckeyeThonTests */,
+				9CD87AED1DBD81B6006FB753 /* BuckeyeThonUITests */,
+				9CD87AC71DBD81B6006FB753 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9CD87AC71DBD81B6006FB753 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9CD87AC61DBD81B6006FB753 /* BuckeyeThon.app */,
+				9CD87ADF1DBD81B6006FB753 /* BuckeyeThonTests.xctest */,
+				9CD87AEA1DBD81B6006FB753 /* BuckeyeThonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9CD87AC81DBD81B6006FB753 /* BuckeyeThon */ = {
+			isa = PBXGroup;
+			children = (
+				9CD87ACC1DBD81B6006FB753 /* AppDelegate.h */,
+				9CD87ACD1DBD81B6006FB753 /* AppDelegate.m */,
+				9CD87ACF1DBD81B6006FB753 /* ViewController.h */,
+				9CD87AD01DBD81B6006FB753 /* ViewController.m */,
+				9CD87AD21DBD81B6006FB753 /* Main.storyboard */,
+				9CD87AD51DBD81B6006FB753 /* Assets.xcassets */,
+				9CD87AD71DBD81B6006FB753 /* LaunchScreen.storyboard */,
+				9CD87ADA1DBD81B6006FB753 /* Info.plist */,
+				9CD87AC91DBD81B6006FB753 /* Supporting Files */,
+			);
+			path = BuckeyeThon;
+			sourceTree = "<group>";
+		};
+		9CD87AC91DBD81B6006FB753 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9CD87ACA1DBD81B6006FB753 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9CD87AE21DBD81B6006FB753 /* BuckeyeThonTests */ = {
+			isa = PBXGroup;
+			children = (
+				9CD87AE31DBD81B6006FB753 /* BuckeyeThonTests.m */,
+				9CD87AE51DBD81B6006FB753 /* Info.plist */,
+			);
+			path = BuckeyeThonTests;
+			sourceTree = "<group>";
+		};
+		9CD87AED1DBD81B6006FB753 /* BuckeyeThonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9CD87AEE1DBD81B6006FB753 /* BuckeyeThonUITests.m */,
+				9CD87AF01DBD81B6006FB753 /* Info.plist */,
+			);
+			path = BuckeyeThonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9CD87AC51DBD81B6006FB753 /* BuckeyeThon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CD87AF31DBD81B6006FB753 /* Build configuration list for PBXNativeTarget "BuckeyeThon" */;
+			buildPhases = (
+				9CD87AC21DBD81B6006FB753 /* Sources */,
+				9CD87AC31DBD81B6006FB753 /* Frameworks */,
+				9CD87AC41DBD81B6006FB753 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BuckeyeThon;
+			productName = BuckeyeThon;
+			productReference = 9CD87AC61DBD81B6006FB753 /* BuckeyeThon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9CD87ADE1DBD81B6006FB753 /* BuckeyeThonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CD87AF61DBD81B6006FB753 /* Build configuration list for PBXNativeTarget "BuckeyeThonTests" */;
+			buildPhases = (
+				9CD87ADB1DBD81B6006FB753 /* Sources */,
+				9CD87ADC1DBD81B6006FB753 /* Frameworks */,
+				9CD87ADD1DBD81B6006FB753 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9CD87AE11DBD81B6006FB753 /* PBXTargetDependency */,
+			);
+			name = BuckeyeThonTests;
+			productName = BuckeyeThonTests;
+			productReference = 9CD87ADF1DBD81B6006FB753 /* BuckeyeThonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9CD87AE91DBD81B6006FB753 /* BuckeyeThonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CD87AF91DBD81B6006FB753 /* Build configuration list for PBXNativeTarget "BuckeyeThonUITests" */;
+			buildPhases = (
+				9CD87AE61DBD81B6006FB753 /* Sources */,
+				9CD87AE71DBD81B6006FB753 /* Frameworks */,
+				9CD87AE81DBD81B6006FB753 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9CD87AEC1DBD81B6006FB753 /* PBXTargetDependency */,
+			);
+			name = BuckeyeThonUITests;
+			productName = BuckeyeThonUITests;
+			productReference = 9CD87AEA1DBD81B6006FB753 /* BuckeyeThonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9CD87ABE1DBD81B6006FB753 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = codeThatCares;
+				TargetAttributes = {
+					9CD87AC51DBD81B6006FB753 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					9CD87ADE1DBD81B6006FB753 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 9CD87AC51DBD81B6006FB753;
+					};
+					9CD87AE91DBD81B6006FB753 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 9CD87AC51DBD81B6006FB753;
+					};
+				};
+			};
+			buildConfigurationList = 9CD87AC11DBD81B6006FB753 /* Build configuration list for PBXProject "BuckeyeThon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9CD87ABD1DBD81B6006FB753;
+			productRefGroup = 9CD87AC71DBD81B6006FB753 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9CD87AC51DBD81B6006FB753 /* BuckeyeThon */,
+				9CD87ADE1DBD81B6006FB753 /* BuckeyeThonTests */,
+				9CD87AE91DBD81B6006FB753 /* BuckeyeThonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9CD87AC41DBD81B6006FB753 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CD87AD91DBD81B6006FB753 /* LaunchScreen.storyboard in Resources */,
+				9CD87AD61DBD81B6006FB753 /* Assets.xcassets in Resources */,
+				9CD87AD41DBD81B6006FB753 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CD87ADD1DBD81B6006FB753 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CD87AE81DBD81B6006FB753 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9CD87AC21DBD81B6006FB753 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CD87AD11DBD81B6006FB753 /* ViewController.m in Sources */,
+				9CD87ACE1DBD81B6006FB753 /* AppDelegate.m in Sources */,
+				9CD87ACB1DBD81B6006FB753 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CD87ADB1DBD81B6006FB753 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CD87AE41DBD81B6006FB753 /* BuckeyeThonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CD87AE61DBD81B6006FB753 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CD87AEF1DBD81B6006FB753 /* BuckeyeThonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9CD87AE11DBD81B6006FB753 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9CD87AC51DBD81B6006FB753 /* BuckeyeThon */;
+			targetProxy = 9CD87AE01DBD81B6006FB753 /* PBXContainerItemProxy */;
+		};
+		9CD87AEC1DBD81B6006FB753 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9CD87AC51DBD81B6006FB753 /* BuckeyeThon */;
+			targetProxy = 9CD87AEB1DBD81B6006FB753 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9CD87AD21DBD81B6006FB753 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9CD87AD31DBD81B6006FB753 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9CD87AD71DBD81B6006FB753 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9CD87AD81DBD81B6006FB753 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9CD87AF11DBD81B6006FB753 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9CD87AF21DBD81B6006FB753 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9CD87AF41DBD81B6006FB753 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BuckeyeThon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = codeThatCares.BuckeyeThon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9CD87AF51DBD81B6006FB753 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BuckeyeThon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = codeThatCares.BuckeyeThon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9CD87AF71DBD81B6006FB753 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BuckeyeThonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = codeThatCares.BuckeyeThonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BuckeyeThon.app/BuckeyeThon";
+			};
+			name = Debug;
+		};
+		9CD87AF81DBD81B6006FB753 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BuckeyeThonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = codeThatCares.BuckeyeThonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BuckeyeThon.app/BuckeyeThon";
+			};
+			name = Release;
+		};
+		9CD87AFA1DBD81B6006FB753 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BuckeyeThonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = codeThatCares.BuckeyeThonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BuckeyeThon;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		9CD87AFB1DBD81B6006FB753 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BuckeyeThonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = codeThatCares.BuckeyeThonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BuckeyeThon;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9CD87AC11DBD81B6006FB753 /* Build configuration list for PBXProject "BuckeyeThon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CD87AF11DBD81B6006FB753 /* Debug */,
+				9CD87AF21DBD81B6006FB753 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CD87AF31DBD81B6006FB753 /* Build configuration list for PBXNativeTarget "BuckeyeThon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CD87AF41DBD81B6006FB753 /* Debug */,
+				9CD87AF51DBD81B6006FB753 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9CD87AF61DBD81B6006FB753 /* Build configuration list for PBXNativeTarget "BuckeyeThonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CD87AF71DBD81B6006FB753 /* Debug */,
+				9CD87AF81DBD81B6006FB753 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9CD87AF91DBD81B6006FB753 /* Build configuration list for PBXNativeTarget "BuckeyeThonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CD87AFA1DBD81B6006FB753 /* Debug */,
+				9CD87AFB1DBD81B6006FB753 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9CD87ABE1DBD81B6006FB753 /* Project object */;
+}
