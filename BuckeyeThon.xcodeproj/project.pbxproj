@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		9C62D7311DBD9C3100C2133E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C62D72F1DBD9C3100C2133E /* Main.storyboard */; };
 		9C62D7321DBD9C3100C2133E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C62D72F1DBD9C3100C2133E /* Main.storyboard */; };
-		9C62D7331DBD9CCC00C2133E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C62D72F1DBD9C3100C2133E /* Main.storyboard */; };
+		9C62D7341DBDA0A800C2133E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C62D72F1DBD9C3100C2133E /* Main.storyboard */; };
 		9CD87ACB1DBD81B6006FB753 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CD87ACA1DBD81B6006FB753 /* main.m */; };
 		9CD87ACE1DBD81B6006FB753 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CD87ACD1DBD81B6006FB753 /* AppDelegate.m */; };
 		9CD87AD11DBD81B6006FB753 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CD87AD01DBD81B6006FB753 /* ViewController.m */; };
@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9C62D72F1DBD9C3100C2133E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		9C62D72F1DBD9C3100C2133E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = BuckeyeThon/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
 		9CD87AC61DBD81B6006FB753 /* BuckeyeThon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuckeyeThon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CD87ACA1DBD81B6006FB753 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9CD87ACC1DBD81B6006FB753 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -245,7 +245,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C62D7331DBD9CCC00C2133E /* Main.storyboard in Resources */,
+				9C62D7341DBDA0A800C2133E /* Main.storyboard in Resources */,
 				9CD87AD91DBD81B6006FB753 /* LaunchScreen.storyboard in Resources */,
 				9CD87AD61DBD81B6006FB753 /* Assets.xcassets in Resources */,
 			);
