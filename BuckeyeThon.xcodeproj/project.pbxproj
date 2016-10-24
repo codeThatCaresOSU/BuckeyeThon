@@ -10,6 +10,18 @@
 		9C62D7311DBD9C3100C2133E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C62D72F1DBD9C3100C2133E /* Main.storyboard */; };
 		9C62D7321DBD9C3100C2133E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C62D72F1DBD9C3100C2133E /* Main.storyboard */; };
 		9C62D7341DBDA0A800C2133E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C62D72F1DBD9C3100C2133E /* Main.storyboard */; };
+		9C9BAAC81DBDC821005B2DF0 /* CapitaBol.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9C9BAABC1DBDC821005B2DF0 /* CapitaBol.otf */; };
+		9C9BAAC91DBDC821005B2DF0 /* CapitaBolIta.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9C9BAABD1DBDC821005B2DF0 /* CapitaBolIta.otf */; };
+		9C9BAACA1DBDC821005B2DF0 /* CapitaIta.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9C9BAABE1DBDC821005B2DF0 /* CapitaIta.otf */; };
+		9C9BAACB1DBDC821005B2DF0 /* CapitaLig.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9C9BAABF1DBDC821005B2DF0 /* CapitaLig.otf */; };
+		9C9BAACC1DBDC821005B2DF0 /* CapitaLigIta.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9C9BAAC01DBDC821005B2DF0 /* CapitaLigIta.otf */; };
+		9C9BAACD1DBDC821005B2DF0 /* CapitaMed.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9C9BAAC11DBDC821005B2DF0 /* CapitaMed.otf */; };
+		9C9BAACE1DBDC821005B2DF0 /* CapitaMedIta.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9C9BAAC21DBDC821005B2DF0 /* CapitaMedIta.otf */; };
+		9C9BAACF1DBDC821005B2DF0 /* CapitaReg.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9C9BAAC31DBDC821005B2DF0 /* CapitaReg.otf */; };
+		9C9BAAD01DBDC821005B2DF0 /* CapitaXBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9C9BAAC41DBDC821005B2DF0 /* CapitaXBold.otf */; };
+		9C9BAAD11DBDC821005B2DF0 /* CapitaXBoldIta.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9C9BAAC51DBDC821005B2DF0 /* CapitaXBoldIta.otf */; };
+		9C9BAAD21DBDC821005B2DF0 /* CapitaXLig.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9C9BAAC61DBDC821005B2DF0 /* CapitaXLig.otf */; };
+		9C9BAAD31DBDC821005B2DF0 /* CapitaXLigIta.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9C9BAAC71DBDC821005B2DF0 /* CapitaXLigIta.otf */; };
 		9CD87ACB1DBD81B6006FB753 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CD87ACA1DBD81B6006FB753 /* main.m */; };
 		9CD87ACE1DBD81B6006FB753 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CD87ACD1DBD81B6006FB753 /* AppDelegate.m */; };
 		9CD87AD11DBD81B6006FB753 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CD87AD01DBD81B6006FB753 /* ViewController.m */; };
@@ -38,6 +50,18 @@
 
 /* Begin PBXFileReference section */
 		9C62D72F1DBD9C3100C2133E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = BuckeyeThon/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
+		9C9BAABC1DBDC821005B2DF0 /* CapitaBol.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CapitaBol.otf; sourceTree = "<group>"; };
+		9C9BAABD1DBDC821005B2DF0 /* CapitaBolIta.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CapitaBolIta.otf; sourceTree = "<group>"; };
+		9C9BAABE1DBDC821005B2DF0 /* CapitaIta.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CapitaIta.otf; sourceTree = "<group>"; };
+		9C9BAABF1DBDC821005B2DF0 /* CapitaLig.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CapitaLig.otf; sourceTree = "<group>"; };
+		9C9BAAC01DBDC821005B2DF0 /* CapitaLigIta.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CapitaLigIta.otf; sourceTree = "<group>"; };
+		9C9BAAC11DBDC821005B2DF0 /* CapitaMed.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CapitaMed.otf; sourceTree = "<group>"; };
+		9C9BAAC21DBDC821005B2DF0 /* CapitaMedIta.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CapitaMedIta.otf; sourceTree = "<group>"; };
+		9C9BAAC31DBDC821005B2DF0 /* CapitaReg.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CapitaReg.otf; sourceTree = "<group>"; };
+		9C9BAAC41DBDC821005B2DF0 /* CapitaXBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CapitaXBold.otf; sourceTree = "<group>"; };
+		9C9BAAC51DBDC821005B2DF0 /* CapitaXBoldIta.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CapitaXBoldIta.otf; sourceTree = "<group>"; };
+		9C9BAAC61DBDC821005B2DF0 /* CapitaXLig.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CapitaXLig.otf; sourceTree = "<group>"; };
+		9C9BAAC71DBDC821005B2DF0 /* CapitaXLigIta.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CapitaXLigIta.otf; sourceTree = "<group>"; };
 		9CD87AC61DBD81B6006FB753 /* BuckeyeThon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuckeyeThon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CD87ACA1DBD81B6006FB753 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9CD87ACC1DBD81B6006FB753 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -80,9 +104,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9C9BAABA1DBDC821005B2DF0 /* Capita */ = {
+			isa = PBXGroup;
+			children = (
+				9C9BAABB1DBDC821005B2DF0 /* Capita */,
+			);
+			path = Capita;
+			sourceTree = "<group>";
+		};
+		9C9BAABB1DBDC821005B2DF0 /* Capita */ = {
+			isa = PBXGroup;
+			children = (
+				9C9BAABC1DBDC821005B2DF0 /* CapitaBol.otf */,
+				9C9BAABD1DBDC821005B2DF0 /* CapitaBolIta.otf */,
+				9C9BAABE1DBDC821005B2DF0 /* CapitaIta.otf */,
+				9C9BAABF1DBDC821005B2DF0 /* CapitaLig.otf */,
+				9C9BAAC01DBDC821005B2DF0 /* CapitaLigIta.otf */,
+				9C9BAAC11DBDC821005B2DF0 /* CapitaMed.otf */,
+				9C9BAAC21DBDC821005B2DF0 /* CapitaMedIta.otf */,
+				9C9BAAC31DBDC821005B2DF0 /* CapitaReg.otf */,
+				9C9BAAC41DBDC821005B2DF0 /* CapitaXBold.otf */,
+				9C9BAAC51DBDC821005B2DF0 /* CapitaXBoldIta.otf */,
+				9C9BAAC61DBDC821005B2DF0 /* CapitaXLig.otf */,
+				9C9BAAC71DBDC821005B2DF0 /* CapitaXLigIta.otf */,
+			);
+			path = Capita;
+			sourceTree = "<group>";
+		};
 		9CD87ABD1DBD81B6006FB753 = {
 			isa = PBXGroup;
 			children = (
+				9C9BAABA1DBDC821005B2DF0 /* Capita */,
 				9CD87AC81DBD81B6006FB753 /* BuckeyeThon */,
 				9CD87AE21DBD81B6006FB753 /* BuckeyeThonTests */,
 				9CD87AED1DBD81B6006FB753 /* BuckeyeThonUITests */,
@@ -245,9 +297,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C9BAACF1DBDC821005B2DF0 /* CapitaReg.otf in Resources */,
+				9C9BAAD01DBDC821005B2DF0 /* CapitaXBold.otf in Resources */,
 				9C62D7341DBDA0A800C2133E /* Main.storyboard in Resources */,
+				9C9BAACB1DBDC821005B2DF0 /* CapitaLig.otf in Resources */,
 				9CD87AD91DBD81B6006FB753 /* LaunchScreen.storyboard in Resources */,
+				9C9BAAD31DBDC821005B2DF0 /* CapitaXLigIta.otf in Resources */,
+				9C9BAACC1DBDC821005B2DF0 /* CapitaLigIta.otf in Resources */,
+				9C9BAACA1DBDC821005B2DF0 /* CapitaIta.otf in Resources */,
 				9CD87AD61DBD81B6006FB753 /* Assets.xcassets in Resources */,
+				9C9BAAC91DBDC821005B2DF0 /* CapitaBolIta.otf in Resources */,
+				9C9BAACE1DBDC821005B2DF0 /* CapitaMedIta.otf in Resources */,
+				9C9BAAC81DBDC821005B2DF0 /* CapitaBol.otf in Resources */,
+				9C9BAAD21DBDC821005B2DF0 /* CapitaXLig.otf in Resources */,
+				9C9BAACD1DBDC821005B2DF0 /* CapitaMed.otf in Resources */,
+				9C9BAAD11DBDC821005B2DF0 /* CapitaXBoldIta.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
