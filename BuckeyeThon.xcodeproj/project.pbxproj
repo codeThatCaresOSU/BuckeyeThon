@@ -108,8 +108,8 @@
 				9CD87ACF1DBD81B6006FB753 /* ViewController.h */,
 				9CD87AD01DBD81B6006FB753 /* ViewController.m */,
 				9C62D72F1DBD9C3100C2133E /* Main.storyboard */,
-				9CD87AD51DBD81B6006FB753 /* Assets.xcassets */,
 				9CD87AD71DBD81B6006FB753 /* LaunchScreen.storyboard */,
+				9CD87AD51DBD81B6006FB753 /* Assets.xcassets */,
 				9CD87ADA1DBD81B6006FB753 /* Info.plist */,
 				9CD87AC91DBD81B6006FB753 /* Supporting Files */,
 			);
