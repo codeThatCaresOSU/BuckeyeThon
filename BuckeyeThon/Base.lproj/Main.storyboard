@@ -8,84 +8,8 @@
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
-    <customFonts key="customFonts">
-        <mutableArray key="CapitaReg.otf">
-            <string>Capita-Regular</string>
-            <string>Capita-Regular</string>
-            <string>Capita-Regular</string>
-            <string>Capita-Regular</string>
-            <string>Capita-Regular</string>
-            <string>Capita-Regular</string>
-            <string>Capita-Regular</string>
-            <string>Capita-Regular</string>
-            <string>Capita-Regular</string>
-        </mutableArray>
-        <mutableArray key="Mark Simonson - Proxima Nova Bold.otf">
-            <string>ProximaNova-Bold</string>
-            <string>ProximaNova-Bold</string>
-            <string>ProximaNova-Bold</string>
-        </mutableArray>
-        <mutableArray key="ProximaNova-Reg.otf">
-            <string>ProximaNova-Regular</string>
-            <string>ProximaNova-Regular</string>
-            <string>ProximaNova-Regular</string>
-            <string>ProximaNova-Regular</string>
-            <string>ProximaNova-Regular</string>
-            <string>ProximaNova-Regular</string>
-            <string>ProximaNova-Regular</string>
-            <string>ProximaNova-Regular</string>
-            <string>ProximaNova-Regular</string>
-            <string>ProximaNova-Regular</string>
-            <string>ProximaNova-Regular</string>
-            <string>ProximaNova-Regular</string>
-            <string>ProximaNova-Regular</string>
-            <string>ProximaNova-Regular</string>
-            <string>ProximaNova-Regular</string>
-            <string>ProximaNova-Regular</string>
-            <string>ProximaNova-Regular</string>
-            <string>ProximaNova-Regular</string>
-            <string>ProximaNova-Regular</string>
-            <string>ProximaNova-Regular</string>
-            <string>ProximaNova-Regular</string>
-            <string>ProximaNova-Regular</string>
-            <string>ProximaNova-Regular</string>
-            <string>ProximaNova-Regular</string>
-            <string>ProximaNova-Regular</string>
-            <string>ProximaNova-Regular</string>
-            <string>ProximaNova-Regular</string>
-            <string>ProximaNova-Regular</string>
-            <string>ProximaNova-Regular</string>
-        </mutableArray>
-        <mutableArray key="ProximaNova-Sbold.otf">
-            <string>ProximaNova-Semibold</string>
-            <string>ProximaNova-Semibold</string>
-        </mutableArray>
-        <mutableArray key="ProximaNova-Thin.otf">
-            <string>ProximaNovaT-Thin</string>
-            <string>ProximaNovaT-Thin</string>
-            <string>ProximaNovaT-Thin</string>
-            <string>ProximaNovaT-Thin</string>
-            <string>ProximaNovaT-Thin</string>
-            <string>ProximaNovaT-Thin</string>
-            <string>ProximaNovaT-Thin</string>
-            <string>ProximaNovaT-Thin</string>
-            <string>ProximaNovaT-Thin</string>
-            <string>ProximaNovaT-Thin</string>
-            <string>ProximaNovaT-Thin</string>
-            <string>ProximaNovaT-Thin</string>
-            <string>ProximaNovaT-Thin</string>
-            <string>ProximaNovaT-Thin</string>
-        </mutableArray>
-        <mutableArray key="ProximaNova-Xbold.otf">
-            <string>ProximaNova-Extrabld</string>
-            <string>ProximaNova-Extrabld</string>
-            <string>ProximaNova-Extrabld</string>
-            <string>ProximaNova-Extrabld</string>
-            <string>ProximaNova-Extrabld</string>
-        </mutableArray>
-    </customFonts>
     <scenes>
-        <!--Share-->
+        <!--Social Media Page-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="Social_Media_Page" sceneMemberID="viewController">
@@ -97,26 +21,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O0X-lK-oMU">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O0X-lK-oMU">
                                 <rect key="frame" x="223" y="83" width="77" height="73"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="73" id="VMj-93-Mlt"/>
-                                </constraints>
                                 <state key="normal" title="Button" image="Instagram Logo.png"/>
                                 <connections>
                                     <action selector="Instagram:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bkE-KN-kXV"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Come join me with dancing cancer away at #Buckeyethon2016" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Aij-Yk-PIs">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Come join me with dancing cancer away at #Buckeyethon2016" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Aij-Yk-PIs">
                                 <rect key="frame" x="40" y="378" width="240" height="128"/>
                                 <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="128" id="GTi-bp-NNC"/>
-                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OQd-Q6-RlC">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OQd-Q6-RlC">
                                 <rect key="frame" x="137" y="530" width="46" height="30"/>
                                 <state key="normal" title="Post">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -125,28 +43,24 @@
                                     <action selector="Postbutton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vnN-2z-DbY"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Facebook icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="hs1-ht-3UD">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Facebook icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="hs1-ht-3UD">
                                 <rect key="frame" x="122" y="245" width="76" height="78"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="76" id="349-p6-aiy"/>
-                                    <constraint firstAttribute="height" constant="78" id="UDs-oU-OhF"/>
-                                </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XSf-QS-M0g">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XSf-QS-M0g">
                                 <rect key="frame" x="122" y="83" width="75" height="72"/>
                                 <state key="normal" title="Button" image="TwitterIcon.jpg"/>
                                 <connections>
                                     <action selector="Twitter:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HRB-HQ-uHr"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TeY-GG-blh">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TeY-GG-blh">
                                 <rect key="frame" x="20" y="83" width="72" height="72"/>
                                 <state key="normal" image="Facebook icon.png"/>
                                 <connections>
                                     <action selector="Facebook:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UC1-d6-Ayo"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cAD-if-857">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cAD-if-857">
                                 <rect key="frame" x="115" y="331" width="90" height="30"/>
                                 <state key="normal" title="Add a Photo">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -157,29 +71,7 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="cAD-if-857" firstAttribute="top" secondItem="hs1-ht-3UD" secondAttribute="bottom" constant="8" symbolic="YES" id="0kf-UE-n9t"/>
-                            <constraint firstItem="hs1-ht-3UD" firstAttribute="centerX" secondItem="cAD-if-857" secondAttribute="centerX" id="3ON-Me-gRT"/>
-                            <constraint firstItem="O0X-lK-oMU" firstAttribute="bottom" secondItem="TeY-GG-blh" secondAttribute="bottom" constant="1" id="804-58-g8c"/>
-                            <constraint firstItem="XSf-QS-M0g" firstAttribute="leading" secondItem="TeY-GG-blh" secondAttribute="trailing" constant="30" id="AH5-4Y-iEL"/>
-                            <constraint firstItem="O0X-lK-oMU" firstAttribute="top" secondItem="XSf-QS-M0g" secondAttribute="top" id="GdX-8k-fQC"/>
-                            <constraint firstItem="OQd-Q6-RlC" firstAttribute="top" secondItem="Aij-Yk-PIs" secondAttribute="bottom" constant="24" id="PnD-6a-hN1"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="O0X-lK-oMU" secondAttribute="trailing" id="Ppj-r2-RyS"/>
-                            <constraint firstItem="hs1-ht-3UD" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="SFd-v2-jJ3"/>
-                            <constraint firstItem="hs1-ht-3UD" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Sxo-Z2-XhK"/>
-                            <constraint firstItem="O0X-lK-oMU" firstAttribute="leading" secondItem="XSf-QS-M0g" secondAttribute="trailing" constant="26" id="Wur-d8-ecl"/>
-                            <constraint firstItem="hs1-ht-3UD" firstAttribute="centerX" secondItem="OQd-Q6-RlC" secondAttribute="centerX" id="XGB-OG-WnS"/>
-                            <constraint firstItem="hs1-ht-3UD" firstAttribute="trailing" secondItem="XSf-QS-M0g" secondAttribute="trailing" constant="1" id="rMH-OF-ejk"/>
-                            <constraint firstItem="hs1-ht-3UD" firstAttribute="centerX" secondItem="XSf-QS-M0g" secondAttribute="centerX" id="uD9-16-Ibo"/>
-                            <constraint firstItem="Aij-Yk-PIs" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="24" id="wZf-Su-Z1g"/>
-                            <constraint firstItem="hs1-ht-3UD" firstAttribute="centerX" secondItem="Aij-Yk-PIs" secondAttribute="centerX" id="xFU-0T-HKq"/>
-                            <constraint firstItem="Aij-Yk-PIs" firstAttribute="top" secondItem="cAD-if-857" secondAttribute="bottom" constant="17" id="yAh-0x-M1V"/>
-                            <constraint firstItem="O0X-lK-oMU" firstAttribute="top" secondItem="jnm-IX-jU1" secondAttribute="bottom" constant="19" id="zNx-HB-h9I"/>
-                        </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Share" id="ghJ-ew-Vop">
-                        <barButtonItem key="backBarButtonItem" title="Home" id="wgr-5q-sEe"/>
-                    </navigationItem>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
                         <outlet property="ImageShift" destination="hs1-ht-3UD" id="lbr-6m-DFx"/>
@@ -203,9 +95,6 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Blog" id="l9t-yY-C9Y">
-                        <barButtonItem key="backBarButtonItem" title="Home" id="4Lm-0m-5eK"/>
-                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="e8Z-Cb-7GJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -224,26 +113,20 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Sponsors" id="bLW-iV-cZD">
-                        <barButtonItem key="backBarButtonItem" title="Home" id="1uY-yD-sjl"/>
-                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9GJ-uQ-1Mr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1667" y="1298"/>
         </scene>
-        <!--Bcukeye Buddies-->
+        <!--Buckeye Buddies-->
         <scene sceneID="iTe-H9-e02">
             <objects>
-                <navigationController id="Qol-U3-iPG" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Bcukeye Buddies" id="DrL-IL-7Ck"/>
+                <navigationController title="Buckeye Buddies" id="Qol-U3-iPG" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Buckeye Buddies" id="DrL-IL-7Ck"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="MBs-GF-e3n">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
-                    <connections>
-                        <segue destination="b6T-Ar-Snl" kind="relationship" relationship="rootViewController" id="Bbq-2y-Wfe"/>
-                    </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tnQ-25-h0d" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -261,68 +144,53 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="vJh-Iv-s1n">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="vJh-Iv-s1n">
                                 <rect key="frame" x="11" y="185" width="299" height="36"/>
                                 <color key="backgroundColor" red="0.73333333329999995" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" name="Capita-Regular" family="Capita" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Miracle Makers">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
-                                <connections>
-                                    <segue destination="cwz-Kd-Pjy" kind="push" id="Wuj-9X-RaV"/>
-                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="ura-5y-g5L">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="ura-5y-g5L">
                                 <rect key="frame" x="11" y="439" width="299" height="36"/>
                                 <color key="backgroundColor" red="0.73333333329999995" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" name="Capita-Regular" family="Capita" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Need Help Setting up An Event?">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
-                                <connections>
-                                    <segue destination="VXz-Xa-Az6" kind="push" id="71b-ne-UIU"/>
-                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="3JF-JJ-k1h">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="3JF-JJ-k1h">
                                 <rect key="frame" x="11" y="72" width="299" height="36"/>
                                 <color key="backgroundColor" red="0.73333333333333328" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" name="Capita-Regular" family="Capita" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Fundraising Resources">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
-                                <connections>
-                                    <segue destination="vCK-gZ-jSb" kind="push" id="l7q-3a-TVQ"/>
-                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="j8H-fN-Tfk">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="j8H-fN-Tfk">
                                 <rect key="frame" x="11" y="312" width="299" height="36"/>
                                 <color key="backgroundColor" red="0.73333333329999995" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" name="Capita-Regular" family="Capita" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Miracle Milestones">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
-                                <connections>
-                                    <segue destination="dzz-Ba-UaU" kind="push" id="NAI-1K-VB5"/>
-                                </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" misplaced="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="t6d-5o-Knz">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="t6d-5o-Knz">
                                 <rect key="frame" x="11" y="223" width="299" height="81"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" staticText="YES" notEnabled="YES"/>
                                 </accessibility>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="81" id="15M-Za-w9o"/>
-                                </constraints>
                                 <string key="text">Are you looking to do something above and beyond for Buckeyethon? Then check out the Miracle Maker initiative for powerful resources for your fundraising campaign!</string>
-                                <fontDescription key="fontDescription" name="ProximaNova-Regular" family="Proxima Nova" pointSize="14"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" misplaced="YES" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="qCo-f2-Km1">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="qCo-f2-Km1">
                                 <rect key="frame" x="11" y="476" width="299" height="92"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <accessibility key="accessibilityConfiguration">
@@ -332,64 +200,34 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" misplaced="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="Need some ideas for how to fundraise? Check out our resource center for ideas big to small to help you reach your goal!" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rmz-zb-PKB">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="Need some ideas for how to fundraise? Check out our resource center for ideas big to small to help you reach your goal!" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rmz-zb-PKB">
                                 <rect key="frame" x="11" y="116" width="299" height="72"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" staticText="YES" notEnabled="YES"/>
                                 </accessibility>
-                                <fontDescription key="fontDescription" name="ProximaNova-Regular" family="Proxima Nova" pointSize="14"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" misplaced="YES" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="YvA-qu-hti">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="YvA-qu-hti">
                                 <rect key="frame" x="11" y="348" width="299" height="99"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" staticText="YES" notEnabled="YES"/>
                                 </accessibility>
                                 <string key="text">Here at Buckeyethon we like to reward our best fundraisers. Check out our milestone system to see what rewards you can earn through fundraising.</string>
-                                <fontDescription key="fontDescription" name="ProximaNova-Regular" family="Proxima Nova" pointSize="14"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="3JF-JJ-k1h" firstAttribute="leading" secondItem="pcC-jw-nc7" secondAttribute="leadingMargin" constant="-5" id="1aR-wn-vjQ"/>
-                            <constraint firstItem="qCo-f2-Km1" firstAttribute="top" secondItem="ura-5y-g5L" secondAttribute="bottom" constant="1" id="2G0-Gv-pJX"/>
-                            <constraint firstItem="t6d-5o-Knz" firstAttribute="leading" secondItem="j8H-fN-Tfk" secondAttribute="leading" id="38U-uT-aSE"/>
-                            <constraint firstItem="t6d-5o-Knz" firstAttribute="top" secondItem="rmz-zb-PKB" secondAttribute="bottom" constant="35" id="4IU-HL-irF"/>
-                            <constraint firstItem="vJh-Iv-s1n" firstAttribute="leading" secondItem="rmz-zb-PKB" secondAttribute="leading" id="5cf-ot-Pl0"/>
-                            <constraint firstItem="t6d-5o-Knz" firstAttribute="trailing" secondItem="j8H-fN-Tfk" secondAttribute="trailing" id="7DV-RD-XKO"/>
-                            <constraint firstItem="t6d-5o-Knz" firstAttribute="top" secondItem="vJh-Iv-s1n" secondAttribute="bottom" constant="2" id="9Ph-e8-vR9"/>
-                            <constraint firstItem="j8H-fN-Tfk" firstAttribute="top" secondItem="t6d-5o-Knz" secondAttribute="bottom" constant="8" symbolic="YES" id="9Rr-4q-9V9"/>
-                            <constraint firstItem="ura-5y-g5L" firstAttribute="leading" secondItem="YvA-qu-hti" secondAttribute="leading" id="C6p-le-Pqs"/>
-                            <constraint firstItem="ura-5y-g5L" firstAttribute="top" secondItem="j8H-fN-Tfk" secondAttribute="bottom" constant="91" id="DHJ-68-cAh"/>
-                            <constraint firstItem="3JF-JJ-k1h" firstAttribute="top" secondItem="tpG-Pn-1XO" secondAttribute="bottom" constant="8" symbolic="YES" id="FEy-zv-n3H"/>
-                            <constraint firstItem="j8H-fN-Tfk" firstAttribute="leading" secondItem="YvA-qu-hti" secondAttribute="leading" id="Qcl-KV-Im1"/>
-                            <constraint firstItem="vJh-Iv-s1n" firstAttribute="trailing" secondItem="t6d-5o-Knz" secondAttribute="trailing" id="SKg-Yd-4ct"/>
-                            <constraint firstItem="qCo-f2-Km1" firstAttribute="bottom" secondItem="9l5-pU-9jx" secondAttribute="top" id="T9K-ls-nYA"/>
-                            <constraint firstItem="qCo-f2-Km1" firstAttribute="top" secondItem="YvA-qu-hti" secondAttribute="bottom" constant="29" id="V4k-M9-XJn"/>
-                            <constraint firstItem="rmz-zb-PKB" firstAttribute="trailing" secondItem="vJh-Iv-s1n" secondAttribute="trailing" id="WaH-sr-5FH"/>
-                            <constraint firstItem="qCo-f2-Km1" firstAttribute="leading" secondItem="ura-5y-g5L" secondAttribute="leading" id="ZbC-C8-6WD"/>
-                            <constraint firstItem="YvA-qu-hti" firstAttribute="top" secondItem="j8H-fN-Tfk" secondAttribute="bottom" id="azn-eY-2n5"/>
-                            <constraint firstItem="3JF-JJ-k1h" firstAttribute="trailing" secondItem="rmz-zb-PKB" secondAttribute="trailing" id="bJI-iJ-DjZ"/>
-                            <constraint firstItem="vJh-Iv-s1n" firstAttribute="top" secondItem="3JF-JJ-k1h" secondAttribute="bottom" constant="77" id="hAp-vx-fxt"/>
-                            <constraint firstItem="YvA-qu-hti" firstAttribute="trailing" secondItem="ura-5y-g5L" secondAttribute="trailing" id="hH1-TE-GEz"/>
-                            <constraint firstItem="qCo-f2-Km1" firstAttribute="trailing" secondItem="ura-5y-g5L" secondAttribute="trailing" id="iTr-8a-1Up"/>
-                            <constraint firstItem="vJh-Iv-s1n" firstAttribute="centerX" secondItem="pcC-jw-nc7" secondAttribute="centerX" id="icV-8R-vPL"/>
-                            <constraint firstItem="rmz-zb-PKB" firstAttribute="top" secondItem="3JF-JJ-k1h" secondAttribute="bottom" constant="8" symbolic="YES" id="m5Y-Yn-wg2"/>
-                            <constraint firstItem="t6d-5o-Knz" firstAttribute="leading" secondItem="vJh-Iv-s1n" secondAttribute="leading" id="mEE-fS-e8w"/>
-                            <constraint firstItem="rmz-zb-PKB" firstAttribute="leading" secondItem="3JF-JJ-k1h" secondAttribute="leading" id="oyx-2c-6a5"/>
-                            <constraint firstItem="j8H-fN-Tfk" firstAttribute="trailing" secondItem="YvA-qu-hti" secondAttribute="trailing" id="wks-EV-bFk"/>
-                        </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Fundraising" id="Zwk-7c-4oj"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PHO-8T-dSt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="255" y="205"/>
         </scene>
-        <!--Fundraising Resources-->
+        <!--View Controller-->
         <scene sceneID="3Jy-RP-spH">
             <objects>
                 <viewController id="vCK-gZ-jSb" sceneMemberID="viewController">
@@ -438,13 +276,12 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Fundraising Resources" id="es9-or-B8j"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bHu-j2-c93" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-193" y="1152"/>
         </scene>
-        <!--Miracle Makers-->
+        <!--View Controller-->
         <scene sceneID="aKn-QL-qFv">
             <objects>
                 <viewController id="cwz-Kd-Pjy" sceneMemberID="viewController">
@@ -456,7 +293,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Supplied Background.png" translatesAutoresizingMaskIntoConstraints="NO" id="PGV-o9-1xE">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Supplied Background.png" translatesAutoresizingMaskIntoConstraints="NO" id="PGV-o9-1xE">
                                 <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="D5Z-ON-pwo">
@@ -482,10 +319,10 @@ First wave sign-ups for items like neighborhood canning, street canning, and new
 Additional encouraging/helpful emails to inspire you throughout the year
 Fundraising Exclusive How-to session 
 Additionally, when you raise $1,000 or above as a Miracle Maker, you will receive everything that comes with the Miracle Maker milestone!</string>
-                                <fontDescription key="fontDescription" name="ProximaNova-Regular" family="Proxima Nova" pointSize="14"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BsG-Pd-G6L">
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BsG-Pd-G6L">
                                 <rect key="frame" x="4" y="134" width="312" height="160"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BA5-kD-eGA">
@@ -498,7 +335,7 @@ Additionally, when you raise $1,000 or above as a Miracle Maker, you will receiv
                                             <constraint firstAttribute="height" constant="152" id="wG1-9W-C3q"/>
                                         </constraints>
                                         <string key="text">The Miracle Makers program is an initiative targeted towards those students who are the most passionate about the cause. Here in BuckeyeThon we know that if you set your goals high, you’ll surprise yourself with how much you can achieve. Being a Miracle Maker requires that you set your fundraising goal to at least $1,000. </string>
-                                        <fontDescription key="fontDescription" name="ProximaNova-Regular" family="Proxima Nova" pointSize="14"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                 </subviews>
@@ -510,14 +347,14 @@ Additionally, when you raise $1,000 or above as a Miracle Maker, you will receiv
                                     <constraint firstItem="BA5-kD-eGA" firstAttribute="top" secondItem="BsG-Pd-G6L" secondAttribute="top" constant="4" id="smt-8u-hs7"/>
                                 </constraints>
                             </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Be a Miracle Maker!" textAlignment="center" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y2g-1H-MyY">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Be a Miracle Maker!" textAlignment="center" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y2g-1H-MyY">
                                 <rect key="frame" x="31" y="90" width="259" height="31"/>
                                 <color key="backgroundColor" red="0.73333333329999995" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="31" id="Hm1-yw-T19"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Capita-Regular" family="Capita" pointSize="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -543,7 +380,6 @@ Additionally, when you raise $1,000 or above as a Miracle Maker, you will receiv
                             <constraint firstItem="BsG-Pd-G6L" firstAttribute="leading" secondItem="Y2A-HI-64n" secondAttribute="leadingMargin" constant="-12" id="vJH-lx-NeU"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Miracle Makers" id="0AC-Su-Rmb"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qe8-Le-sve" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -581,7 +417,7 @@ Additionally, when you raise $1,000 or above as a Miracle Maker, you will receiv
                                                 <string key="text">$250: Buckeye Boogier
 Entry into Raffle
 CMN Hospital Bracelets</string>
-                                                <fontDescription key="fontDescription" name="ProximaNova-Regular" family="Proxima Nova" pointSize="14"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="p9x-iT-dSH">
@@ -608,7 +444,7 @@ FTK Window Sticker
 Koozies
 Recognition on a slide at the DM 
 All offered at the Buckeye Boogier Level</string>
-                                                <fontDescription key="fontDescription" name="ProximaNova-Regular" family="Proxima Nova" pointSize="14"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="yEn-Gj-4JV">
@@ -633,7 +469,7 @@ All offered at the Buckeye Boogier Level</string>
 Tumbler 
 1 Hour Block to Play with Service Animals at the Dance Marathon 
 All offered at the Buckeye Boogier and Hopeful Hero Levels</string>
-                                                <fontDescription key="fontDescription" name="ProximaNova-Regular" family="Proxima Nova" pointSize="14"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="m3D-4r-e7c">
@@ -662,7 +498,7 @@ Miracle Maker Club:
 Special DM T-Shirt
 Hospital Tour
 All offered at the Buckeye Boogier, Hopeful Hero, and Devoted Dancer Levels</string>
-                                                <fontDescription key="fontDescription" name="ProximaNova-Regular" family="Proxima Nova" pointSize="14"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="96i-WS-SV2">
@@ -689,7 +525,7 @@ Invitation to Spring Cook Out
 Certificate from Nationwide Children's Hospital Officials 
 VIP Viewing Area During Reveal
 All offered at the Buckeye Boogier, Hopeful Hero, Devoted Dance, and Miracle Maker Levels</string>
-                                                <fontDescription key="fontDescription" name="ProximaNova-Regular" family="Proxima Nova" pointSize="14"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="9bg-wx-ToM">
@@ -712,7 +548,7 @@ All offered at the Buckeye Boogier, Hopeful Hero, Devoted Dance, and Miracle Mak
                                                 <string key="text">Top 5 Fundraisers 
 Name Recognition on Stage at Both Closings 
 Hold up a sign at Reveal </string>
-                                                <fontDescription key="fontDescription" name="ProximaNova-Regular" family="Proxima Nova" pointSize="14"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Afi-sa-DLH">
@@ -733,7 +569,7 @@ Hold up a sign at Reveal </string>
                                                     <constraint firstAttribute="width" constant="304" id="qcx-Nb-FFx"/>
                                                 </constraints>
                                                 <string key="text">To recognize dancers for their fundraising achievements, we are offering the following rewards at each respective fundraising milestone!</string>
-                                                <fontDescription key="fontDescription" name="Capita-Regular" family="Capita" pointSize="14"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="J7m-Yr-Eqh">
@@ -751,7 +587,7 @@ Raffle ticket for every $250 raised
 5 Raffle winners will get free registration for BuckeyeThon's 2017 Dance Marathon
 GoPro Camera
 Event At Nationwide Children's Hospital</string>
-                                                <fontDescription key="fontDescription" name="ProximaNova-Regular" family="Proxima Nova" pointSize="14"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="VWU-so-DFb">
@@ -815,7 +651,6 @@ Event At Nationwide Children's Hospital</string>
                             <constraint firstItem="iOk-QC-NjC" firstAttribute="leading" secondItem="8jt-7Z-mJK" secondAttribute="leadingMargin" constant="-20" id="WJq-hK-knX"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Miracle Milestones" id="pCJ-9L-p1X"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="320" height="1700"/>
                     <connections>
@@ -832,7 +667,7 @@ Event At Nationwide Children's Hospital</string>
             </objects>
             <point key="canvasLocation" x="665" y="1718"/>
         </scene>
-        <!--Fundraising Help-->
+        <!--View Controller-->
         <scene sceneID="xvG-u5-SGA">
             <objects>
                 <viewController id="VXz-Xa-Az6" sceneMemberID="viewController">
@@ -845,7 +680,6 @@ Event At Nationwide Children's Hospital</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Fundraising Help" id="fgD-1f-aAZ"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Gz4-3Z-gbh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -864,7 +698,6 @@ Event At Nationwide Children's Hospital</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="FAQ" id="T8H-2X-6OL"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Mjf-rZ-rZm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -883,13 +716,12 @@ Event At Nationwide Children's Hospital</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Contact Us" id="MwI-p2-u6f"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jec-me-RVa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-2219" y="205"/>
         </scene>
-        <!--Buckeyethon-->
+        <!--Home Page-->
         <scene sceneID="elk-4M-QnP">
             <objects>
                 <viewController id="AeR-ik-Skg" customClass="HomePage" sceneMemberID="viewController">
@@ -901,10 +733,10 @@ Event At Nationwide Children's Hospital</string>
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" restorationIdentifier="OutsideView" translatesAutoresizingMaskIntoConstraints="NO" id="uGx-AJ-Ads">
+                            <view contentMode="scaleToFill" misplaced="YES" restorationIdentifier="OutsideView" translatesAutoresizingMaskIntoConstraints="NO" id="uGx-AJ-Ads">
                                 <rect key="frame" x="0.0" y="334" width="320" height="234"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" restorationIdentifier="InsideView" translatesAutoresizingMaskIntoConstraints="NO" id="rdG-eS-yUX">
+                                    <view contentMode="scaleToFill" misplaced="YES" restorationIdentifier="InsideView" translatesAutoresizingMaskIntoConstraints="NO" id="rdG-eS-yUX">
                                         <rect key="frame" x="10" y="10" width="300" height="214"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NkY-Y6-Zd3">
@@ -916,9 +748,6 @@ Event At Nationwide Children's Hospital</string>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="10"/>
                                                 </userDefinedRuntimeAttributes>
-                                                <connections>
-                                                    <segue destination="jmf-yw-DSb" kind="push" id="JFV-kM-8v4"/>
-                                                </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Events" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a1G-gw-EjK">
                                                 <rect key="frame" x="114" y="83" width="70" height="10"/>
@@ -941,9 +770,6 @@ Event At Nationwide Children's Hospital</string>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="10"/>
                                                 </userDefinedRuntimeAttributes>
-                                                <connections>
-                                                    <segue destination="MIS-8A-okv" kind="push" id="K9m-MV-aU4"/>
-                                                </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="My Account" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ike-nw-jmu">
                                                 <rect key="frame" x="18" y="83" width="70" height="10"/>
@@ -973,9 +799,6 @@ Event At Nationwide Children's Hospital</string>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="10"/>
                                                 </userDefinedRuntimeAttributes>
-                                                <connections>
-                                                    <segue destination="LIU-3o-doP" kind="push" id="mCX-xF-GwC"/>
-                                                </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Learn More" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pF0-If-mFs">
                                                 <rect key="frame" x="17" y="171" width="70" height="10"/>
@@ -995,9 +818,6 @@ Event At Nationwide Children's Hospital</string>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="10"/>
                                                 </userDefinedRuntimeAttributes>
-                                                <connections>
-                                                    <segue destination="gOd-9y-GHb" kind="push" id="Cvj-Y0-jh8"/>
-                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0dw-lP-rp9">
                                                 <rect key="frame" x="224" y="113" width="49" height="50"/>
@@ -1011,9 +831,6 @@ Event At Nationwide Children's Hospital</string>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="10"/>
                                                 </userDefinedRuntimeAttributes>
-                                                <connections>
-                                                    <segue destination="bi8-83-s6Q" kind="push" id="Fqa-zo-eFH"/>
-                                                </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Get Involved" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q6K-xY-gMq">
                                                 <rect key="frame" x="214" y="171" width="70" height="10"/>
@@ -1078,13 +895,13 @@ Event At Nationwide Children's Hospital</string>
                                     <constraint firstAttribute="bottom" secondItem="rdG-eS-yUX" secondAttribute="bottom" constant="10" id="pGs-7v-Y9n"/>
                                 </constraints>
                             </view>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="2k3-zx-pKm">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2k3-zx-pKm">
                                 <rect key="frame" x="0.0" y="134" width="320" height="200"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="2k3-zx-pKm" secondAttribute="height" multiplier="8:5" id="Pjt-qZ-PSn"/>
                                 </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BuckeyeThon.png" translatesAutoresizingMaskIntoConstraints="NO" id="zFz-ht-2mo">
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="BuckeyeThon.png" translatesAutoresizingMaskIntoConstraints="NO" id="zFz-ht-2mo">
                                 <rect key="frame" x="0.0" y="64" width="320" height="70"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="zFz-ht-2mo" secondAttribute="height" multiplier="32:7" id="ZAS-OV-cE3"/>
@@ -1105,9 +922,6 @@ Event At Nationwide Children's Hospital</string>
                             <constraint firstItem="zFz-ht-2mo" firstAttribute="leading" secondItem="y9Y-qX-Xa5" secondAttribute="leading" id="yH0-dh-V1k"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Buckeyethon" id="pNp-ZK-q3e">
-                        <barButtonItem key="backBarButtonItem" title="Home" id="r6c-QX-Doo"/>
-                    </navigationItem>
                     <connections>
                         <outlet property="EventsButton" destination="lE7-MD-mF6" id="YmV-kv-Tdq"/>
                         <outlet property="FAQButton" destination="2Zl-9U-wnr" id="8ZO-Tb-eoK"/>
@@ -1137,30 +951,18 @@ Event At Nationwide Children's Hospital</string>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OpU-AT-x2c">
                                 <rect key="frame" x="142" y="122" width="37" height="30"/>
                                 <state key="normal" title="FAQs"/>
-                                <connections>
-                                    <segue destination="1ft-BY-zLW" kind="push" id="3qA-jY-yUx"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dYu-Ra-FgC">
                                 <rect key="frame" x="145" y="172" width="31" height="30"/>
                                 <state key="normal" title="Blog"/>
-                                <connections>
-                                    <segue destination="Ldw-0o-bgS" kind="push" id="mwC-3f-ivb"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8ii-a8-yLg">
                                 <rect key="frame" x="128" y="218" width="64" height="30"/>
                                 <state key="normal" title="About Us"/>
-                                <connections>
-                                    <segue destination="cT4-Th-BU9" kind="push" id="X67-RN-P5y"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DKy-x4-gbh">
                                 <rect key="frame" x="122" y="269" width="77" height="30"/>
                                 <state key="normal" title="Contact Us"/>
-                                <connections>
-                                    <segue destination="VRI-JI-BB1" kind="push" id="R3W-rJ-GUE"/>
-                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -1173,9 +975,6 @@ Event At Nationwide Children's Hospital</string>
                             <constraint firstAttribute="top" secondItem="l3l-SP-clU" secondAttribute="bottom" constant="25" id="wH7-yM-WIg"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Media" id="rdW-IA-C1r">
-                        <barButtonItem key="backBarButtonItem" title="Home" id="Ydf-Ys-ihQ"/>
-                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="P9r-c6-rRy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1193,7 +992,7 @@ Event At Nationwide Children's Hospital</string>
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <webView contentMode="center" translatesAutoresizingMaskIntoConstraints="NO" id="9zN-ah-gf4">
+                            <webView contentMode="center" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9zN-ah-gf4">
                                 <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
                                 <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES"/>
@@ -1207,7 +1006,6 @@ Event At Nationwide Children's Hospital</string>
                             <constraint firstAttribute="trailing" secondItem="9zN-ah-gf4" secondAttribute="trailing" id="hZF-b3-KRS"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Donate" id="4CV-X6-EKR"/>
                     <connections>
                         <outlet property="WebView" destination="9zN-ah-gf4" id="yF7-u1-1Qh"/>
                     </connections>
@@ -1228,21 +1026,21 @@ Event At Nationwide Children's Hospital</string>
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Turd Ferguson" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8cf-mW-9NR">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Turd Ferguson" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8cf-mW-9NR">
                                 <rect key="frame" x="0.0" y="72" width="320" height="33"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="33" id="vn4-vC-HwJ"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Capita-Regular" family="Capita" pointSize="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Celebrity Jeopardy" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k9a-Pg-0IQ">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Celebrity Jeopardy" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k9a-Pg-0IQ">
                                 <rect key="frame" x="0.0" y="106" width="315" height="26"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="26" id="8bl-TH-stp"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="ProximaNova-Regular" family="Proxima Nova" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -1253,7 +1051,7 @@ Event At Nationwide Children's Hospital</string>
                                 </constraints>
                                 <color key="progressTintColor" red="0.73333333329999995" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                             </progressView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="team_10599.png" translatesAutoresizingMaskIntoConstraints="NO" id="vUD-qh-fkj">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="team_10599.png" translatesAutoresizingMaskIntoConstraints="NO" id="vUD-qh-fkj">
                                 <rect key="frame" x="0.0" y="140" width="320" height="102"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You're at $69 out of $100!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2xp-Mk-EVG">
@@ -1270,7 +1068,7 @@ Event At Nationwide Children's Hospital</string>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="33" id="mN4-2V-N4J"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Capita-Regular" family="Capita" pointSize="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -1279,7 +1077,7 @@ Event At Nationwide Children's Hospital</string>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="33" id="mC2-pU-7vF"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Capita-Regular" family="Capita" pointSize="22"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -1292,7 +1090,7 @@ Event At Nationwide Children's Hospital</string>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CZW-0f-41d">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CZW-0f-41d">
                                 <rect key="frame" x="243" y="64" width="77" height="22"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="77" id="H5h-L3-3jg"/>
@@ -1311,13 +1109,13 @@ Event At Nationwide Children's Hospital</string>
                             </progressView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="50%" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="etx-rk-ReG">
                                 <rect key="frame" x="13" y="455" width="148" height="15"/>
-                                <fontDescription key="fontDescription" name="ProximaNova-Regular" family="Proxima Nova" pointSize="12"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="50%" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RLt-4X-85g">
                                 <rect key="frame" x="13" y="322" width="148" height="15"/>
-                                <fontDescription key="fontDescription" name="ProximaNova-Regular" family="Proxima Nova" pointSize="12"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -1365,7 +1163,6 @@ Event At Nationwide Children's Hospital</string>
                             <constraint firstItem="zfE-1w-636" firstAttribute="top" secondItem="RLt-4X-85g" secondAttribute="bottom" constant="53" id="ynG-1M-BUk"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="My Account" id="JHZ-Cn-OUh"/>
                     <connections>
                         <outlet property="Donate" destination="CZW-0f-41d" id="tTz-qN-4YC"/>
                         <outlet property="PersonalName" destination="8cf-mW-9NR" id="e64-nK-Lrg"/>
@@ -1383,7 +1180,7 @@ Event At Nationwide Children's Hospital</string>
             </objects>
             <point key="canvasLocation" x="-1093" y="-1592"/>
         </scene>
-        <!--Fashion Show-->
+        <!--View Controller-->
         <scene sceneID="7Oi-JR-Pfo">
             <objects>
                 <viewController id="8zC-Le-xRk" sceneMemberID="viewController">
@@ -1395,13 +1192,13 @@ Event At Nationwide Children's Hospital</string>
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="FashionShow.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="ePm-YA-f9U">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="FashionShow.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="ePm-YA-f9U">
                                 <rect key="frame" x="0.0" y="64" width="320" height="192"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="192" id="O3a-Vf-UO4"/>
                                 </constraints>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k5M-VQ-HMc">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k5M-VQ-HMc">
                                 <rect key="frame" x="0.0" y="264" width="320" height="231"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">BuckeyeThon had its 2015 Fashion Show on Tuesday, November 3, 2015. BuckeyeThon's 2015 Fashion Show brought together the Ohio State community, BuckeyeThon Kids and the latest fashions from the Greater Columbus area.
@@ -1409,19 +1206,16 @@ Event At Nationwide Children's Hospital</string>
                                     At the Fashion Show, student models and BuckeyeThon Kids were styled the latest fashion. "Genesis" and "Ohio State of Mind" made special performances between style sets, and each attendee was provided with a grab bag with various products from sponsors.
                                     
                                     Be sure to follow @BuckeyeThon on social media and check out our Facebook page to see pictures and videos from the event!</string>
-                                <fontDescription key="fontDescription" name="ProximaNovaT-Thin" family="Proxima Nova" pointSize="12"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MAS-Sa-BEZ">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MAS-Sa-BEZ">
                                 <rect key="frame" x="92" y="489" width="136" height="30"/>
                                 <color key="backgroundColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" name="ProximaNova-Bold" family="Proxima Nova" pointSize="15"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <state key="normal" title="Sponsors">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <connections>
-                                    <segue destination="B1t-4D-0yu" kind="push" id="Jky-jO-TZm"/>
-                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -1438,13 +1232,12 @@ Event At Nationwide Children's Hospital</string>
                             <constraint firstItem="k5M-VQ-HMc" firstAttribute="leading" secondItem="ePm-YA-f9U" secondAttribute="leading" id="yZh-1E-xdX"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Fashion Show" id="Vjo-Gs-wJ4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="a8W-Xy-7NU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2061" y="-1383"/>
         </scene>
-        <!--Extra Life!-->
+        <!--View Controller-->
         <scene sceneID="IOV-NX-zLG">
             <objects>
                 <viewController id="7M8-LF-TrP" sceneMemberID="viewController">
@@ -1456,7 +1249,7 @@ Event At Nationwide Children's Hospital</string>
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ExtraLife.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="Vkr-Sy-oFo">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="ExtraLife.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="Vkr-Sy-oFo">
                                 <rect key="frame" x="0.0" y="64" width="320" height="192"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="192" id="2Se-oa-Rms"/>
@@ -1480,7 +1273,7 @@ Event At Nationwide Children's Hospital</string>
                                     
                                     
                                     If you have questions about any of these opportunities or have team members interested in participating, please reach out to Andrew Topinka at topinka.4@osu.edu or Surabhi Tewari at tewari.20@osu.edu.</string>
-                                <fontDescription key="fontDescription" name="ProximaNovaT-Thin" family="Proxima Nova" pointSize="12"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <dataDetectorType key="dataDetectorTypes" link="YES" address="YES"/>
                             </textView>
@@ -1495,13 +1288,12 @@ Event At Nationwide Children's Hospital</string>
                             <constraint firstItem="4ev-Jw-lQC" firstAttribute="top" secondItem="Vkr-Sy-oFo" secondAttribute="bottom" constant="8" symbolic="YES" id="yKa-JP-yEL"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Extra Life!" id="qOn-5R-WGL"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZWK-rU-cOY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2061" y="-757"/>
         </scene>
-        <!--Fashion Show Sponsors-->
+        <!--View Controller-->
         <scene sceneID="ka2-w2-LvS">
             <objects>
                 <viewController id="B1t-4D-0yu" sceneMemberID="viewController">
@@ -1639,7 +1431,6 @@ Event At Nationwide Children's Hospital</string>
                             <constraint firstItem="C7W-RK-2GA" firstAttribute="top" secondItem="ycV-WN-btJ" secondAttribute="bottom" id="t1y-IA-qv7"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Fashion Show Sponsors" id="8As-fE-3tH"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="320" height="1668"/>
                 </viewController>
@@ -1647,7 +1438,7 @@ Event At Nationwide Children's Hospital</string>
             </objects>
             <point key="canvasLocation" x="3242" y="-1607"/>
         </scene>
-        <!--Buckeyethon-->
+        <!--Events-->
         <scene sceneID="jhD-R8-bZq">
             <objects>
                 <viewController id="sFI-5V-OET" customClass="Events" sceneMemberID="viewController">
@@ -1665,24 +1456,18 @@ Event At Nationwide Children's Hospital</string>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="159" id="mvf-2E-p5q"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="ProximaNova-Bold" family="Proxima Nova" pointSize="15"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <state key="normal" title="What to Bring">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <connections>
-                                    <segue destination="PbG-19-GeN" kind="push" id="SgT-DO-N7i"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SUV-gZ-Lpb">
                                 <rect key="frame" x="0.0" y="489" width="161" height="30"/>
                                 <color key="backgroundColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" name="ProximaNova-Bold" family="Proxima Nova" pointSize="15"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <state key="normal" title="Teams">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <connections>
-                                    <segue destination="tC0-kT-eg4" kind="push" id="KAV-tP-bnM"/>
-                                </connections>
                             </button>
                             <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8Qi-Vh-KT5">
                                 <rect key="frame" x="0.0" y="64" width="320" height="633"/>
@@ -1702,7 +1487,7 @@ Event At Nationwide Children's Hospital</string>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="37" id="o8M-Oe-hNg"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" name="ProximaNova-Semibold" family="Proxima Nova" pointSize="17"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -1716,14 +1501,14 @@ Event At Nationwide Children's Hospital</string>
                                                     <constraint firstAttribute="width" constant="152" id="LDB-IP-Ttj"/>
                                                     <constraint firstAttribute="height" constant="168" id="nXK-nP-VWk"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" name="ProximaNova-Regular" family="Proxima Nova" pointSize="17"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Over 5,000 students raised $1.3 Million!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sCV-fg-cZA">
                                                 <rect key="frame" x="198" y="369" width="122" height="141"/>
                                                 <color key="backgroundColor" red="0.73333333333333328" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                                <fontDescription key="fontDescription" name="ProximaNova-Regular" family="Proxima Nova" pointSize="17"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -1733,7 +1518,7 @@ Event At Nationwide Children's Hospital</string>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="128" id="6xO-Dm-Xpr"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" name="ProximaNova-Regular" family="Proxima Nova" pointSize="17"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -1809,9 +1594,6 @@ Event At Nationwide Children's Hospital</string>
                             <constraint firstItem="8Qi-Vh-KT5" firstAttribute="top" secondItem="98f-vZ-w8z" secondAttribute="bottom" id="zrD-Dj-rLR"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Buckeyethon" id="9qu-jD-F50">
-                        <barButtonItem key="backBarButtonItem" title="Home" id="EQy-f9-R2J"/>
-                    </navigationItem>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="320" height="775"/>
                     <connections>
@@ -1822,7 +1604,7 @@ Event At Nationwide Children's Hospital</string>
             </objects>
             <point key="canvasLocation" x="2061" y="-2118.5"/>
         </scene>
-        <!--Teams-->
+        <!--View Controller-->
         <scene sceneID="4Tl-2m-paJ">
             <objects>
                 <viewController id="tC0-kT-eg4" sceneMemberID="viewController">
@@ -1831,20 +1613,20 @@ Event At Nationwide Children's Hospital</string>
                         <viewControllerLayoutGuide type="bottom" id="rLZ-Wp-qmu"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="CHx-KH-S0F">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="775"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BtTeams.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="VKg-8P-bGH">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="BtTeams.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="VKg-8P-bGH">
                                 <rect key="frame" x="0.0" y="64" width="320" height="192"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="192" id="UcN-AU-qze"/>
                                 </constraints>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FYf-Fo-xZ1">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FYf-Fo-xZ1">
                                 <rect key="frame" x="0.0" y="264" width="320" height="462"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">When you register online, you have the option to join a team, which is usually affiliated with a residence hall, Greek chapter, student organization, etc. Dancer teams often fundraise together and make shirts for the big day. The Dance Marathon is a great way to strengthen the relationships in your club or social group! You’ll also be part of a color team for activities on the day of; dancers who registered for the same team online will be on the same color team. If you don’t want to join a team, or you just want to attend with some friends that don’t fall under the same dancer team, then you can instead join a color team directly when you apply online. There are red, orange, yellow, green, blue, purple, pink, and black teams to choose from.</string>
-                                <fontDescription key="fontDescription" name="ProximaNovaT-Thin" family="Proxima Nova" pointSize="12"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
@@ -1859,15 +1641,12 @@ Event At Nationwide Children's Hospital</string>
                             <constraint firstItem="FYf-Fo-xZ1" firstAttribute="top" secondItem="VKg-8P-bGH" secondAttribute="bottom" constant="8" symbolic="YES" id="rE2-Ek-SaS"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Teams" id="5ZJ-a4-tp1">
-                        <barButtonItem key="backBarButtonItem" title="Back" id="FNk-l6-H2h"/>
-                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xh2-84-ZAA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2482" y="-2118.5"/>
         </scene>
-        <!--What to Bring-->
+        <!--View Controller-->
         <scene sceneID="wV7-Jp-IT9">
             <objects>
                 <viewController id="PbG-19-GeN" sceneMemberID="viewController">
@@ -1876,20 +1655,20 @@ Event At Nationwide Children's Hospital</string>
                         <viewControllerLayoutGuide type="bottom" id="AsZ-P8-vCz"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="FwZ-Pa-XO5">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="775"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BtWhat2Bring.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="wVJ-f1-Kmp">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="BtWhat2Bring.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="wVJ-f1-Kmp">
                                 <rect key="frame" x="0.0" y="64" width="320" height="192"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="192" id="LqS-vO-xe3"/>
                                 </constraints>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3nl-31-pf4">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3nl-31-pf4">
                                 <rect key="frame" x="0.0" y="264" width="320" height="462"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">Registered dancers will receive more information about what to bring to the Dance Marathon as the event gets closer. Potential dancers should know that you’ll be inside the beautiful Ohio Union during your half of the Dance Marathon, and you’ll be given meals and drinks. Keep an eye out for a more detailed survival guide coming later!</string>
-                                <fontDescription key="fontDescription" name="ProximaNovaT-Thin" family="Proxima Nova" pointSize="12"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
@@ -1904,9 +1683,6 @@ Event At Nationwide Children's Hospital</string>
                             <constraint firstItem="wVJ-f1-Kmp" firstAttribute="top" secondItem="be8-Ne-qde" secondAttribute="bottom" id="yw0-xC-y7V"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="What to Bring" id="ORf-7q-g31">
-                        <barButtonItem key="backBarButtonItem" title="Back" id="Xzz-hW-ujP"/>
-                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="w4E-zX-ieZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1926,6 +1702,7 @@ Event At Nationwide Children's Hospital</string>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RS3-9r-Pon">
                                 <rect key="frame" x="20" y="28" width="280" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <state key="normal" title="Button"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BiS-Er-HaA">
@@ -1934,13 +1711,12 @@ Event At Nationwide Children's Hospital</string>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="i2e-eF-Y50"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="ProximaNova-Extrabld" family="Proxima Nova" pointSize="15"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <state key="normal" title="Dance Marathon">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="tab1:" destination="TKo-Bb-Vce" eventType="touchUpInside" id="91h-95-Q8G"/>
-                                    <segue destination="9st-24-A4w" kind="push" id="L0i-jK-T8h"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZLA-MZ-ULN">
@@ -1949,18 +1725,17 @@ Event At Nationwide Children's Hospital</string>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="Ivo-Vc-b9L"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="ProximaNova-Extrabld" family="Proxima Nova" pointSize="15"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <state key="normal" title="Fashion Show">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="tab2:" destination="TKo-Bb-Vce" eventType="touchUpInside" id="0vF-c8-71b"/>
-                                    <segue destination="9st-24-A4w" kind="push" id="Qz8-4H-BUd"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="BuckeyeThon hosts three major events. Touch to learn more!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YKk-b7-m5f">
                                 <rect key="frame" x="20" y="72" width="280" height="63"/>
-                                <fontDescription key="fontDescription" name="ProximaNova-Semibold" family="Proxima Nova" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -1970,13 +1745,12 @@ Event At Nationwide Children's Hospital</string>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="nft-B3-6h9"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="ProximaNova-Extrabld" family="Proxima Nova" pointSize="15"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <state key="normal" title="Extra Life">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="tab3:" destination="TKo-Bb-Vce" eventType="touchUpInside" id="NLh-5v-2fv"/>
-                                    <segue destination="9st-24-A4w" kind="push" id="XhS-c7-RO1"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hNU-qb-J7i">
@@ -1985,13 +1759,12 @@ Event At Nationwide Children's Hospital</string>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="1wD-i5-lhA"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="ProximaNova-Extrabld" family="Proxima Nova" pointSize="15"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <state key="normal" title="Miracle Miles 5k">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="tab3:" destination="TKo-Bb-Vce" eventType="touchUpInside" id="KIc-qg-pnW"/>
-                                    <segue destination="9st-24-A4w" kind="push" id="btc-5q-70a"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SYD-d0-FjW">
@@ -2000,7 +1773,7 @@ Event At Nationwide Children's Hospital</string>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="0du-t2-qRl"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="ProximaNova-Extrabld" family="Proxima Nova" pointSize="15"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <state key="normal" title="CarnOval">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -2008,7 +1781,6 @@ Event At Nationwide Children's Hospital</string>
                                     <action selector="tab3:" destination="TKo-Bb-Vce" eventType="touchUpInside" id="zlm-r4-YU1"/>
                                     <action selector="tab4:" destination="TKo-Bb-Vce" eventType="touchUpInside" id="J9A-w3-Pva"/>
                                     <action selector="tab5:" destination="TKo-Bb-Vce" eventType="touchUpInside" id="KvS-6Y-SFu"/>
-                                    <segue destination="9st-24-A4w" kind="push" id="SEB-t2-7QN"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -2038,7 +1810,6 @@ Event At Nationwide Children's Hospital</string>
                             <constraint firstItem="BiS-Er-HaA" firstAttribute="top" secondItem="YKk-b7-m5f" secondAttribute="bottom" constant="8" symbolic="YES" id="v3R-qp-PBR"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="9FA-VO-Vj0"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KmR-uc-XDD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -2048,26 +1819,18 @@ Event At Nationwide Children's Hospital</string>
         <scene sceneID="cRy-HO-Yhl">
             <objects>
                 <tabBarController id="9st-24-A4w" customClass="EventsTabBar" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="BCx-f9-M4T"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="lOr-4f-OjJ">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <color key="barTintColor" red="0.73333333333333328" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     </tabBar>
-                    <connections>
-                        <segue destination="Qv3-6P-wKr" kind="relationship" relationship="viewControllers" id="DaR-5g-zXo"/>
-                        <segue destination="5af-wu-oi6" kind="relationship" relationship="viewControllers" id="cyV-o4-YM5"/>
-                        <segue destination="6gG-xo-fWB" kind="relationship" relationship="viewControllers" id="DCW-Km-S5c"/>
-                        <segue destination="Ds8-cT-eYt" kind="relationship" relationship="viewControllers" id="bQW-kO-HmZ"/>
-                        <segue destination="WwK-wu-FEk" kind="relationship" relationship="viewControllers" id="4x1-H8-wRN"/>
-                    </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4eq-ax-4Px" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1118" y="-529"/>
         </scene>
-        <!--Meet the Kids!-->
+        <!--Meet the Kids-->
         <scene sceneID="dM2-4g-0hQ">
             <objects>
                 <viewController id="jmf-yw-DSb" customClass="Meet_the_Kids_" sceneMemberID="viewController">
@@ -2107,7 +1870,6 @@ Event At Nationwide Children's Hospital</string>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Meet the Kids!" id="EKg-h5-Urd"/>
                     <connections>
                         <outlet property="message" destination="x0b-du-yTT" id="DB6-jc-OdH"/>
                         <outlet property="textField" destination="Zoz-Qn-uOF" id="vjR-Bh-a9p"/>
@@ -2117,7 +1879,7 @@ Event At Nationwide Children's Hospital</string>
             </objects>
             <point key="canvasLocation" x="-1971" y="-529"/>
         </scene>
-        <!--Get Involved!-->
+        <!--Get Involved-->
         <scene sceneID="odH-UF-ijM">
             <objects>
                 <viewController id="bi8-83-s6Q" customClass="Get_Involved_" sceneMemberID="viewController">
@@ -2129,19 +1891,19 @@ Event At Nationwide Children's Hospital</string>
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lZb-BF-wtU">
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lZb-BF-wtU">
                                 <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yJn-nr-c2f">
+                                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yJn-nr-c2f">
                                         <rect key="frame" x="10" y="10" width="300" height="484"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bla-5Z-nJB">
+                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bla-5Z-nJB">
                                                 <rect key="frame" x="10" y="179" width="280" height="30"/>
                                                 <color key="backgroundColor" red="0.83747136779999998" green="0.1255704986" blue="0.16018382380000001" alpha="1" colorSpace="calibratedRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="30" id="IQb-NJ-lws"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" name="ProximaNovaT-Thin" family="Proxima Nova" pointSize="21"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                                 <state key="normal" title="Dancers">
                                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
@@ -2150,16 +1912,15 @@ Event At Nationwide Children's Hospital</string>
                                                 </userDefinedRuntimeAttributes>
                                                 <connections>
                                                     <action selector="DancersButton:" destination="bi8-83-s6Q" eventType="touchUpInside" id="ZSo-aB-xry"/>
-                                                    <segue destination="WY0-8B-HFa" kind="push" id="jH3-Vu-b0K"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QbI-tF-boD">
+                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QbI-tF-boD">
                                                 <rect key="frame" x="10" y="299" width="280" height="30"/>
                                                 <color key="backgroundColor" red="0.83747136779999998" green="0.1255704986" blue="0.16018382380000001" alpha="1" colorSpace="calibratedRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="30" id="dbq-qo-sgd"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" name="ProximaNovaT-Thin" family="Proxima Nova" pointSize="21"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                                 <state key="normal" title="Membership">
                                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
@@ -2168,17 +1929,16 @@ Event At Nationwide Children's Hospital</string>
                                                 </userDefinedRuntimeAttributes>
                                                 <connections>
                                                     <action selector="MembershipButton:" destination="bi8-83-s6Q" eventType="touchUpInside" id="my3-be-j5h"/>
-                                                    <segue destination="WY0-8B-HFa" kind="push" id="L0O-7E-gn6"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gw3-Zy-hDI">
+                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gw3-Zy-hDI">
                                                 <rect key="frame" x="10" y="359" width="280" height="30"/>
                                                 <color key="backgroundColor" red="0.83747136779999998" green="0.1255704986" blue="0.16018382380000001" alpha="1" colorSpace="calibratedRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="gw3-Zy-hDI" secondAttribute="height" multiplier="28:3" id="IWm-j3-2bW"/>
                                                     <constraint firstAttribute="height" constant="30" id="qLe-di-3vJ"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" name="ProximaNovaT-Thin" family="Proxima Nova" pointSize="21"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                                 <state key="normal" title="Buckeye Buddies">
                                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
@@ -2187,17 +1947,16 @@ Event At Nationwide Children's Hospital</string>
                                                 </userDefinedRuntimeAttributes>
                                                 <connections>
                                                     <action selector="BuckeyeBuddiesButton:" destination="bi8-83-s6Q" eventType="touchUpInside" id="T5H-GY-Km1"/>
-                                                    <segue destination="WY0-8B-HFa" kind="push" id="e5r-XE-Mi4"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vs5-NT-E4L">
+                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vs5-NT-E4L">
                                                 <rect key="frame" x="10" y="239" width="280" height="30"/>
                                                 <color key="backgroundColor" red="0.83747136779999998" green="0.1255704986" blue="0.16018382380000001" alpha="1" colorSpace="calibratedRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="vs5-NT-E4L" secondAttribute="height" multiplier="28:3" id="egt-Lp-14h"/>
                                                     <constraint firstAttribute="height" constant="30" id="kbv-q4-XCa"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" name="ProximaNovaT-Thin" family="Proxima Nova" pointSize="21"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                                 <state key="normal" title="Team Captains">
                                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
@@ -2206,16 +1965,15 @@ Event At Nationwide Children's Hospital</string>
                                                 </userDefinedRuntimeAttributes>
                                                 <connections>
                                                     <action selector="TeamCaptainsButton:" destination="bi8-83-s6Q" eventType="touchUpInside" id="pbb-EP-hED"/>
-                                                    <segue destination="WY0-8B-HFa" kind="push" id="ktg-nT-TrM"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ckC-sm-JYE">
+                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ckC-sm-JYE">
                                                 <rect key="frame" x="10" y="413" width="280" height="30"/>
                                                 <color key="backgroundColor" red="0.83747136779999998" green="0.1255704986" blue="0.16018382380000001" alpha="1" colorSpace="calibratedRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="30" id="s0n-w9-FM0"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" name="ProximaNovaT-Thin" family="Proxima Nova" pointSize="21"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                                 <state key="normal" title="Share">
                                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
@@ -2224,16 +1982,15 @@ Event At Nationwide Children's Hospital</string>
                                                 </userDefinedRuntimeAttributes>
                                                 <connections>
                                                     <action selector="BuckeyeBuddiesButton:" destination="bi8-83-s6Q" eventType="touchUpInside" id="xn4-o0-DCU"/>
-                                                    <segue destination="BYZ-38-t0r" kind="push" id="FEE-Uh-4aN"/>
                                                 </connections>
                                             </button>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="WAYS TO GET INVOLVED:" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Txo-Qj-6Dz">
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" editable="NO" text="WAYS TO GET INVOLVED:" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Txo-Qj-6Dz">
                                                 <rect key="frame" x="30" y="41" width="240" height="95"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="Txo-Qj-6Dz" secondAttribute="height" multiplier="48:19" id="XW0-Sr-fMV"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" name="ProximaNovaT-Thin" family="Proxima Nova" pointSize="30"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                         </subviews>
@@ -2282,9 +2039,6 @@ Event At Nationwide Children's Hospital</string>
                             <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="5"/>
                         </userDefinedRuntimeAttributes>
                     </view>
-                    <navigationItem key="navigationItem" title="Get Involved!" id="WJ5-Kj-MPB">
-                        <barButtonItem key="backBarButtonItem" title="Back" id="kPf-4Y-tDG"/>
-                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="b1K-NZ-RLu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -2303,9 +2057,6 @@ Event At Nationwide Children's Hospital</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="About Us" id="r72-ug-LCf">
-                        <barButtonItem key="backBarButtonItem" title="Home" id="ASf-0u-xyY"/>
-                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qXy-L9-HKG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -2320,9 +2071,6 @@ Event At Nationwide Children's Hospital</string>
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
-                    <connections>
-                        <segue destination="acJ-2U-6Yy" kind="relationship" relationship="rootViewController" id="msB-rS-aTA"/>
-                    </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1P4-4m-Qbz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -2337,9 +2085,6 @@ Event At Nationwide Children's Hospital</string>
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
-                    <connections>
-                        <segue destination="r9W-LN-aJY" kind="relationship" relationship="rootViewController" id="nG7-dD-tCI"/>
-                    </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OUb-CT-B4k" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -2370,7 +2115,7 @@ Event At Nationwide Children's Hospital</string>
                                                     <constraint firstAttribute="width" secondItem="ezw-Pm-qf6" secondAttribute="height" multiplier="70:37" id="301-V8-Oq9"/>
                                                 </constraints>
                                                 <string key="text">Team Captains are an important link between BuckeyeThon as an organization and the Team Members. Team Captains motivate and organize events to help their team to fundraise For The Kids, they go canning with their team and communicate vital information about events and fundraising to their entire team through email. Information about applying is available at buckeyethon.osu.edu/getinvolved</string>
-                                                <fontDescription key="fontDescription" name="ProximaNova-Regular" family="Proxima Nova" pointSize="14"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XzN-uP-IfO">
@@ -2379,7 +2124,7 @@ Event At Nationwide Children's Hospital</string>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="30" id="Ba2-ki-lit"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" name="ProximaNova-Regular" family="Proxima Nova" pointSize="15"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <state key="normal" title="Apply Here!">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
@@ -2419,9 +2164,6 @@ Event At Nationwide Children's Hospital</string>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Team Captains" id="eoG-JY-apA"/>
-                    <navigationItem key="navigationItem" title="Team Captains" id="5sj-Cr-vAX">
-                        <barButtonItem key="backBarButtonItem" title="Back" id="TSY-LS-bPa"/>
-                    </navigationItem>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fUp-wR-avi" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -2437,9 +2179,6 @@ Event At Nationwide Children's Hospital</string>
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
-                    <connections>
-                        <segue destination="cgd-rH-uKi" kind="relationship" relationship="rootViewController" id="SUO-W5-fv6"/>
-                    </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aBD-Ad-xQr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -2461,7 +2200,7 @@ Event At Nationwide Children's Hospital</string>
                                 <rect key="frame" x="0.0" y="64" width="320" height="163"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">General Body Members are behind the passion and year-round success of BuckeyeThon, Ohio State's largest student-run philanthropy. Our 180 members coordinate all of the event planning, corporate partnerships, financial tracking, public relations, alumni relations, fundraising, and membership programs that BuckeyeThon executes throughout the year. Students are able to apply to become a General Body Member in August, further information about applying is available at buckeyethon.osu.edu/getinvolved</string>
-                                <fontDescription key="fontDescription" name="ProximaNova-Regular" family="Proxima Nova" pointSize="12"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="c4T-3u-eV4">
@@ -2472,50 +2211,50 @@ Event At Nationwide Children's Hospital</string>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Elizabeth Boor:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zW9-gz-7yw">
                                                 <rect key="frame" x="0.0" y="113" width="107" height="20"/>
-                                                <fontDescription key="fontDescription" name="ProximaNova-Regular" family="Proxima Nova" pointSize="15"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <color key="textColor" red="0.83747136779999998" green="0.1255704986" blue="0.16018382380000001" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Director of Membership Selections and Education" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xE5-Nc-hEu">
                                                 <rect key="frame" x="8" y="130" width="265" height="20"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                <fontDescription key="fontDescription" name="ProximaNovaT-Thin" family="Proxima Nova" pointSize="12"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                             <textView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="boor.17@osu.edu" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C3B-lD-IyC">
                                                 <rect key="frame" x="9" y="153" width="265" height="20"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                <fontDescription key="fontDescription" name="ProximaNovaT-Thin" family="Proxima Nova" pointSize="12"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                             <textView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="hoffman.813@osu.edu" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="daI-kH-4l3">
                                                 <rect key="frame" x="8" y="227" width="265" height="20"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                <fontDescription key="fontDescription" name="ProximaNovaT-Thin" family="Proxima Nova" pointSize="12"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Carly Hoffman:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wtu-Fu-FqV">
                                                 <rect key="frame" x="0.0" y="181" width="107" height="20"/>
-                                                <fontDescription key="fontDescription" name="ProximaNova-Regular" family="Proxima Nova" pointSize="15"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <color key="textColor" red="0.83747136779999998" green="0.1255704986" blue="0.16018382380000001" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Vice President of Membership" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tzt-zN-rB5">
                                                 <rect key="frame" x="8" y="200" width="265" height="20"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                <fontDescription key="fontDescription" name="ProximaNovaT-Thin" family="Proxima Nova" pointSize="12"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                             <textView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YZu-bl-Tgr">
                                                 <rect key="frame" x="0.0" y="29" width="280" height="84"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <string key="text">     Thank you for your interest in becoming a BuckeyeThon General Body Member! If you have any questions about becoming a General Body Member of BuckeyeThon, please e-mail the Director or Vice President listed below.</string>
-                                                <fontDescription key="fontDescription" name="ProximaNova-Regular" family="Proxima Nova" pointSize="12"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Contact Information:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xzZ-cV-zal">
                                                 <rect key="frame" x="61" y="5" width="158" height="21"/>
-                                                <fontDescription key="fontDescription" name="ProximaNova-Regular" family="Proxima Nova" pointSize="15"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <color key="textColor" red="0.83747136779999998" green="0.1255704986" blue="0.16018382380000001" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -2529,9 +2268,6 @@ Event At Nationwide Children's Hospital</string>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Membership" id="KPO-Ce-hgT"/>
-                    <navigationItem key="navigationItem" title="Membership" id="ZSb-9j-UvH">
-                        <barButtonItem key="backBarButtonItem" title="Back" id="HqS-35-AFr"/>
-                    </navigationItem>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WxD-TA-N9d" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -2560,7 +2296,7 @@ Event At Nationwide Children's Hospital</string>
                                         <rect key="frame" x="8" y="65" width="272" height="251"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <string key="text">Team Members are Ohio State students who have committed to BuckeyeThon’s cause. Every Team Member has the opportunity to attend the Miracle Miles 5K, the Fashion Show and CarnOval for free upon registration and raises the minimum to attend the Dance Marathon. Team Members are the people who make BuckeyeThon a life-changing, transformative experience for one another and for every BuckeyeThon Kid. Register to become a Team Member at go.osu.edu/bt</string>
-                                        <fontDescription key="fontDescription" name="ProximaNova-Regular" family="Proxima Nova" pointSize="14"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                 </subviews>
@@ -2570,7 +2306,6 @@ Event At Nationwide Children's Hospital</string>
                         <color key="backgroundColor" red="0.83747136779999998" green="0.1255704986" blue="0.16018382380000001" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Dancers" selectedImage="Facebook icon.png" id="OV9-qC-DsI"/>
-                    <navigationItem key="navigationItem" id="OSh-vF-vse"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics" translucent="NO"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="F8X-99-XdJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -2581,18 +2316,11 @@ Event At Nationwide Children's Hospital</string>
         <scene sceneID="2eX-tX-jPh">
             <objects>
                 <tabBarController id="WY0-8B-HFa" customClass="GITabController" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="kca-XN-fGy"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="smX-br-VbP">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
-                    <connections>
-                        <segue destination="XmK-b3-FGf" kind="relationship" relationship="viewControllers" id="cOe-dx-hkz"/>
-                        <segue destination="Pda-YO-m3r" kind="relationship" relationship="viewControllers" id="FWJ-dp-Qg6"/>
-                        <segue destination="XOV-kk-kXq" kind="relationship" relationship="viewControllers" id="Ve2-Qg-4s7"/>
-                        <segue destination="Qol-U3-iPG" kind="relationship" relationship="viewControllers" id="t45-eO-3pC"/>
-                    </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0Lk-7y-fbl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -2624,7 +2352,7 @@ Event At Nationwide Children's Hospital</string>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <string key="text">The Buckeye Buddies Program provides Ohio State student athletes the opportunity to interact with BuckeyeThon families. Many of these athletes are interested in our philanthropy, however, their busy
 schedules and NCAA restrictions prohibit them from committing to the various BuckeyeThon events throughout the year. The Buckeye Buddies Program coordinates events on behalf of both families and the athletic teams as events are organized through BuckeyeThon liaisons. You can find out more information about the Buckeye Buddies program at buckeyethon.osu.edu/getinvolved/buckeye_buddies</string>
-                                                <fontDescription key="fontDescription" name="ProximaNova-Regular" family="Proxima Nova" pointSize="12"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                         </subviews>
@@ -2637,9 +2365,6 @@ schedules and NCAA restrictions prohibit them from committing to the various Buc
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Buckeye Buddies" id="PVR-QB-2PU"/>
-                    <navigationItem key="navigationItem" title="Buckeye Buddies" id="9Gq-4w-avj">
-                        <barButtonItem key="backBarButtonItem" title="Back" id="NYZ-gM-EIu"/>
-                    </navigationItem>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Uwd-ut-Txd" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -2656,16 +2381,12 @@ schedules and NCAA restrictions prohibit them from committing to the various Buc
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="AeR-ik-Skg" kind="relationship" relationship="rootViewController" id="3hk-Ga-kUk"/>
-                        <segue destination="VLZ-Jk-e4T" kind="push" id="rRL-Iw-lad"/>
-                    </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dZo-FI-Ypy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-114" y="-537"/>
         </scene>
-        <!--Miracle Miles 5k-->
+        <!--View Controller-->
         <scene sceneID="JZj-dF-ZKx">
             <objects>
                 <viewController id="I6f-cI-Z5D" sceneMemberID="viewController">
@@ -2680,14 +2401,13 @@ schedules and NCAA restrictions prohibit them from committing to the various Buc
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xFJ-Sl-g4O">
                                 <rect key="frame" x="0.0" y="215" width="320" height="173"/>
                                 <string key="text">BuckeyeThon’s Miracle Miles 5K serves as the organization’s academic year kickoff and takes place during Welcome Week. In this event, the students and faculty celebrate our BuckeyeThon kids and families through a 5K run across campus. </string>
-                                <fontDescription key="fontDescription" name="ProximaNova-Regular" family="Proxima Nova" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Miracle Miles 5k" id="Mu8-u8-rCc"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ye3-kx-vXV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -2705,9 +2425,6 @@ schedules and NCAA restrictions prohibit them from committing to the various Buc
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="sFI-5V-OET" kind="relationship" relationship="rootViewController" id="AFr-QO-ntB"/>
-                    </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mUL-FX-5GM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -2719,15 +2436,11 @@ schedules and NCAA restrictions prohibit them from committing to the various Buc
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="5af-wu-oi6" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Fashion Show" id="XjG-XJ-AWF"/>
                     <toolbarItems/>
-                    <navigationItem key="navigationItem" id="Te3-S4-yJE"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="ezq-eo-3Fj">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="8zC-Le-xRk" kind="relationship" relationship="rootViewController" id="ddb-5O-A4c"/>
-                    </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hvi-Xk-dpf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -2739,21 +2452,17 @@ schedules and NCAA restrictions prohibit them from committing to the various Buc
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="6gG-xo-fWB" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Extra Life" id="a0j-FU-HjA"/>
                     <toolbarItems/>
-                    <navigationItem key="navigationItem" id="RTm-fK-bEC"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="jhI-8Z-2AG">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="7M8-LF-TrP" kind="relationship" relationship="rootViewController" id="Tub-Ks-Jrj"/>
-                    </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rpS-2l-0qf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1672" y="-757"/>
         </scene>
-        <!--CarnOval-->
+        <!--View Controller-->
         <scene sceneID="OuN-p7-paq">
             <objects>
                 <viewController id="5Xt-9N-g5C" sceneMemberID="viewController">
@@ -2768,14 +2477,13 @@ schedules and NCAA restrictions prohibit them from committing to the various Buc
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6ek-WD-onv">
                                 <rect key="frame" x="0.0" y="218" width="320" height="199"/>
                                 <string key="text">BuckeyeThon’s CarnOval serves as a celebration of the year’s successes, as well as a kickoff for the next year of fundraising. In this event, the entire Ohio State community is invited to play with the BuckeyeThon kids in a day of outdoor attractions, inflatables, and food. </string>
-                                <fontDescription key="fontDescription" name="ProximaNova-Regular" family="Proxima Nova" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="CarnOval" id="J7C-6B-UVh"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="w8f-or-0OE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -2787,15 +2495,11 @@ schedules and NCAA restrictions prohibit them from committing to the various Buc
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Ds8-cT-eYt" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="F2D-UQ-kdA"/>
                     <toolbarItems/>
-                    <navigationItem key="navigationItem" id="Ksw-4Z-8N1"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Vx7-JT-Dq0">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="I6f-cI-Z5D" kind="relationship" relationship="rootViewController" id="Av1-vF-6HR"/>
-                    </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lpL-PE-fbu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -2812,9 +2516,6 @@ schedules and NCAA restrictions prohibit them from committing to the various Buc
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="5Xt-9N-g5C" kind="relationship" relationship="rootViewController" id="ewT-Uf-b5I"/>
-                    </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4E5-Vv-SfC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -2844,8 +2545,4 @@ schedules and NCAA restrictions prohibit them from committing to the various Buc
         <image name="cbj.jpg" width="1000" height="894"/>
         <image name="team_10599.png" width="640" height="480"/>
     </resources>
-    <inferredMetricsTieBreakers>
-        <segue reference="ktg-nT-TrM"/>
-        <segue reference="L0i-jK-T8h"/>
-    </inferredMetricsTieBreakers>
 </document>
