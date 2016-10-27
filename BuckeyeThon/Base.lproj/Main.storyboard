@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="14F1713" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="AeR-ik-Skg">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="AeR-ik-Skg">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="CapitaReg.otf">
+            <string>Capita-Regular</string>
+            <string>Capita-Regular</string>
+            <string>Capita-Regular</string>
+        </mutableArray>
+    </customFonts>
     <scenes>
         <!--Social Media Page-->
         <scene sceneID="tne-QT-ifu">
@@ -551,6 +558,15 @@ Event At Nationwide Children's Hospital</string>
                     <view key="view" contentMode="scaleToFill" id="9RI-B2-x8D">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Link to FAQ:                                               http://buckeyethon.osu.edu/faqs/buckeyethon_faqs" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="roF-eP-xCJ">
+                                <rect key="frame" x="20" y="28" width="280" height="63"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
@@ -1452,12 +1468,141 @@ Event At Nationwide Children's Hospital</string>
                     <view key="view" contentMode="scaleToFill" id="Oei-cU-XRB">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="D06-7g-gub">
+                                <rect key="frame" x="20" y="78" width="280" height="78"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sFl-XT-3g1">
+                                <rect key="frame" x="20" y="506" width="280" height="42"/>
+                                <color key="backgroundColor" red="0.73333333333333328" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Capita-Regular" family="Capita" pointSize="30"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="Our Cause">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="rmX-kb-66d" kind="push" id="8tA-2X-5mE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SMW-db-oFB">
+                                <rect key="frame" x="20" y="28" width="280" height="42"/>
+                                <color key="backgroundColor" red="0.73333333329999995" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Capita-Regular" family="Capita" pointSize="25"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="Every Kid Deserves To...">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="keyPath">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9aS-rq-ezn">
+                                <rect key="frame" x="20" y="159" width="280" height="289"/>
+                                <mutableString key="text">When thinking back on our childhood, most of us can remember running, jumping, laughing, playing--living every day without a care in the world.  Unfortunately, some kids aren’t so lucky. Every day, 43 children are diagnosed with cancer, and even more are diagnosed with other life-threatening diseases.
+ 
+BuckeyeThon thinks that these kids still deserve to be kids! That’s why every year the Buckeye community fund-raises to support the children of the Hematology/Oncology/BMT Department of Columbus’ Nationwide Children’s Hospital then celebrates with a 24-hour dance marathon! 
+ 
+ 
+Every kid deserves to run and jump and laugh and dance. Every kid deserves to live carefree. 
+ 
+Every Kid Deserves to be a Buckeye!</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ocd-36-N65">
+                                <rect key="frame" x="20" y="456" width="280" height="42"/>
+                                <color key="backgroundColor" red="0.73333333329999995" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Capita-Regular" family="Capita" pointSize="30"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="Our Beneficiary">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="ffO-Uv-1K9" kind="push" id="LaN-fQ-w36"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.76078431372549016" green="0.76078431372549016" blue="0.76078431372549016" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qXy-L9-HKG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-2605" y="859"/>
+        </scene>
+        <!--Our Beneficiary-->
+        <scene sceneID="aP2-Tt-KEl">
+            <objects>
+                <viewController title="Our Beneficiary" id="ffO-Uv-1K9" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="hDI-Ik-lnu"/>
+                        <viewControllerLayoutGuide type="bottom" id="HZw-ny-55x"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kUI-Tx-YL1">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WUp-8h-hHh">
+                                <rect key="frame" x="20" y="229" width="280" height="331"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dd1-OR-6gq">
+                                <rect key="frame" x="20" y="28" width="280" height="193"/>
+                                <mutableString key="text">All BuckeyeThon events support the Hematology/Oncology/BMT Department at Nationwide Children’s Hospital, a member of Children’s Miracle Network Hospitals. This hospital is where almost all of our BuckeyeThon kids receive their treatments. 100% of funds that are raised by dancers, volunteers, or virtual dancers are donated to the hospital and are used to cover the costs of treatments that families cannot afford. They are also used to purchase items that the Hematology/Oncology/BMT Department may need to further improve the quality of care they can provide.</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.76078431369999999" green="0.76078431369999999" blue="0.76078431369999999" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="EAW-yC-tvt"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cCf-VW-FFe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2946" y="857"/>
+        </scene>
+        <!--Our Cause-->
+        <scene sceneID="lhA-3D-Dqw">
+            <objects>
+                <viewController title="Our Cause" id="rmX-kb-66d" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dnr-MD-nwu"/>
+                        <viewControllerLayoutGuide type="bottom" id="daD-Mu-SN1"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="IcU-8J-Z5t">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yIM-5a-d3X">
+                                <rect key="frame" x="20" y="20" width="280" height="180"/>
+                                <mutableString key="text">Throughout the year, BuckeyeThon raises money to support the kids who are treated on the Hematology/Oncology/BMT Department at Nationwide Children's Hospital. BuckeyeThon members, Ohio State students, faculty/staff, and the community of Columbus residents participate in events throughout the year which culminate in a Dance Marathon to both monetarily and emotionally support our BuckeyeThon families. Through BuckeyeThon, Ohio State students have the opportunity to Pay It Forward and to change forever the lives of kids fighting cancer.</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Wqf-kx-9RR">
+                                <rect key="frame" x="20" y="208" width="280" height="352"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.76078431369999999" green="0.76078431369999999" blue="0.76078431369999999" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="gHC-8J-sVv"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MqR-eO-QXn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2258" y="857"/>
         </scene>
         <!--Membership-->
         <scene sceneID="Z5W-Ft-Gw2">
