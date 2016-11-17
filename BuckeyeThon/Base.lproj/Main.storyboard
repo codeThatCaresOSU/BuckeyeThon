@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES" initialViewController="TKo-Bb-Vce">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES" initialViewController="cS9-4B-hxh">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
@@ -1012,10 +1012,11 @@ Event At Nationwide Children's Hospital</string>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" id="FDZ-a6-Du2"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="a8W-Xy-7NU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2088" y="-1527"/>
+            <point key="canvasLocation" x="2140" y="-1548"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="IOV-NX-zLG">
@@ -1056,10 +1057,11 @@ Event At Nationwide Children's Hospital</string>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" id="e3D-s7-iJK"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZWK-rU-cOY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2088" y="-791"/>
+            <point key="canvasLocation" x="2674.5" y="-791.5"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="ka2-w2-LvS">
@@ -1135,7 +1137,7 @@ Event At Nationwide Children's Hospital</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="psr-oO-4ru" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3242" y="-1607"/>
+            <point key="canvasLocation" x="3829" y="-1607"/>
         </scene>
         <!--Events-->
         <scene sceneID="jhD-R8-bZq">
@@ -1231,6 +1233,7 @@ Event At Nationwide Children's Hospital</string>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" id="ZDG-yN-aPD"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="320" height="775"/>
                     <connections>
@@ -1239,7 +1242,7 @@ Event At Nationwide Children's Hospital</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4pY-dq-bjh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2060" y="-2300"/>
+            <point key="canvasLocation" x="2104" y="-2317"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="4Tl-2m-paJ">
@@ -1401,10 +1404,11 @@ Event At Nationwide Children's Hospital</string>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" id="zFP-yu-Wag"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KmR-uc-XDD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="727" y="-540"/>
+            <point key="canvasLocation" x="1313.5" y="-540.5"/>
         </scene>
         <!--Events Tab Bar-->
         <scene sceneID="cRy-HO-Yhl">
@@ -1427,7 +1431,7 @@ Event At Nationwide Children's Hospital</string>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4eq-ax-4Px" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1140" y="-538"/>
+            <point key="canvasLocation" x="1726.5" y="-538.5"/>
         </scene>
         <!--Meet the Kids-->
         <scene sceneID="dM2-4g-0hQ">
@@ -2098,10 +2102,11 @@ schedules and NCAA restrictions prohibit them from committing to the various Buc
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" id="8GC-XZ-FRf"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ye3-kx-vXV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2088" y="-41"/>
+            <point key="canvasLocation" x="2674.5" y="-41.5"/>
         </scene>
         <!--Buckeyethon-->
         <scene sceneID="Aam-Vu-fbo">
@@ -2115,6 +2120,9 @@ schedules and NCAA restrictions prohibit them from committing to the various Buc
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="sFI-5V-OET" kind="relationship" relationship="rootViewController" id="V8f-V1-oMC"/>
+                    </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mUL-FX-5GM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -2131,6 +2139,9 @@ schedules and NCAA restrictions prohibit them from committing to the various Buc
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="8zC-Le-xRk" kind="relationship" relationship="rootViewController" id="DwJ-bg-8Sz"/>
+                    </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hvi-Xk-dpf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -2147,10 +2158,13 @@ schedules and NCAA restrictions prohibit them from committing to the various Buc
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="7M8-LF-TrP" kind="push" id="1cE-JA-Cd0"/>
+                    </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rpS-2l-0qf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1672" y="-790"/>
+            <point key="canvasLocation" x="2258.5" y="-790.5"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="OuN-p7-paq">
@@ -2175,6 +2189,7 @@ schedules and NCAA restrictions prohibit them from committing to the various Buc
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" id="epe-Wh-KSs"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="w8f-or-0OE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -2191,10 +2206,13 @@ schedules and NCAA restrictions prohibit them from committing to the various Buc
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="I6f-cI-Z5D" kind="push" id="GrL-pI-zxd"/>
+                    </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lpL-PE-fbu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1672" y="-40"/>
+            <point key="canvasLocation" x="2258.5" y="-40.5"/>
         </scene>
         <!--Item-->
         <scene sceneID="NHw-2c-QZ4">
@@ -2207,10 +2225,31 @@ schedules and NCAA restrictions prohibit them from committing to the various Buc
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="5Xt-9N-g5C" kind="push" id="edT-p9-aoT"/>
+                    </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4E5-Vv-SfC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1672" y="687"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="lXZ-R6-FPy">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="cS9-4B-hxh" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="AfP-ne-D8S">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="TKo-Bb-Vce" kind="relationship" relationship="rootViewController" id="QTs-Ck-YGz"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4i1-gm-EIh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="832" y="-541"/>
         </scene>
     </scenes>
     <resources>

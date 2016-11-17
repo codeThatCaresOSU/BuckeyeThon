@@ -59,6 +59,7 @@
 		9CD87AEF1DBD81B6006FB753 /* BuckeyeThonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CD87AEE1DBD81B6006FB753 /* BuckeyeThonUITests.m */; };
 		DA05467D1DCF767500985975 /* EventsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA05467C1DCF767500985975 /* EventsViewController.m */; };
 		DA0546801DD0297700985975 /* EventsTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = DA05467F1DD0297700985975 /* EventsTabBar.m */; };
+		DA5F82A21DDD315E0078347F /* SwiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5F82A11DDD315E0078347F /* SwiftViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -139,6 +140,8 @@
 		DA05467C1DCF767500985975 /* EventsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventsViewController.m; sourceTree = "<group>"; };
 		DA05467E1DD0297700985975 /* EventsTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventsTabBar.h; sourceTree = "<group>"; };
 		DA05467F1DD0297700985975 /* EventsTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventsTabBar.m; sourceTree = "<group>"; };
+		DA5F82A01DDD315D0078347F /* BuckeyeThon-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BuckeyeThon-Bridging-Header.h"; sourceTree = "<group>"; };
+		DA5F82A11DDD315E0078347F /* SwiftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -271,6 +274,8 @@
 				9CD87AD51DBD81B6006FB753 /* Assets.xcassets */,
 				9CD87ADA1DBD81B6006FB753 /* Info.plist */,
 				9CD87AC91DBD81B6006FB753 /* Supporting Files */,
+				DA5F82A11DDD315E0078347F /* SwiftViewController.swift */,
+				DA5F82A01DDD315D0078347F /* BuckeyeThon-Bridging-Header.h */,
 			);
 			path = BuckeyeThon;
 			sourceTree = "<group>";
@@ -381,6 +386,7 @@
 				TargetAttributes = {
 					9CD87AC51DBD81B6006FB753 = {
 						CreatedOnToolsVersion = 7.2.1;
+						LastSwiftMigration = 0800;
 					};
 					9CD87ADE1DBD81B6006FB753 = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -486,6 +492,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA5F82A21DDD315E0078347F /* SwiftViewController.swift in Sources */,
 				9CD87AD11DBD81B6006FB753 /* ViewController.m in Sources */,
 				DA05467D1DCF767500985975 /* EventsViewController.m in Sources */,
 				9CD87ACE1DBD81B6006FB753 /* AppDelegate.m in Sources */,
@@ -623,10 +630,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = BuckeyeThon/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = codeThatCares.BuckeyeThon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BuckeyeThon/BuckeyeThon-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -634,16 +645,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = BuckeyeThon/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = codeThatCares.BuckeyeThon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BuckeyeThon/BuckeyeThon-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		9CD87AF71DBD81B6006FB753 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = BuckeyeThonTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -656,6 +671,7 @@
 		9CD87AF81DBD81B6006FB753 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = BuckeyeThonTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -668,6 +684,7 @@
 		9CD87AFA1DBD81B6006FB753 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = BuckeyeThonUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = codeThatCares.BuckeyeThonUITests;
@@ -680,6 +697,7 @@
 		9CD87AFB1DBD81B6006FB753 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = BuckeyeThonUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = codeThatCares.BuckeyeThonUITests;
